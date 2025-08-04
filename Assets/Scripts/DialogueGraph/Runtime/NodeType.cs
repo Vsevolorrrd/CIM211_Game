@@ -1,0 +1,13 @@
+namespace Subtegral.DialogueSystem
+{
+    public enum DialogueNodeType
+    {
+        Basic,
+        Choice,
+        Event,
+        BoolCondition,
+        StringCondition,
+        RandomCondition,
+        End
+    }
+}
