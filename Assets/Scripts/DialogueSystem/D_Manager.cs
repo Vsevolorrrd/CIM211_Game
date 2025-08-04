@@ -15,12 +15,14 @@ namespace Subtegral.DialogueSystem.Runtime
         // Dialogue managers
         private D_conditionManager conditionManager;
         private D_EventManager eventManager;
+        private D_TrustManager trustManager;
         private D_UI UIManager;
 
         void Start()
         {
             conditionManager = GetComponent<D_conditionManager>();
             eventManager = GetComponent<D_EventManager>();
+            trustManager = GetComponent<D_TrustManager>();
             UIManager = GetComponent<D_UI>();
         }
 
@@ -98,7 +100,7 @@ namespace Subtegral.DialogueSystem.Runtime
             }
 
             ProceedToNarrative(nextLink.TargetNodeGUID);
-            eventManager.DialogueEvent(nodeData, conditionManager);
+            eventManager.DialogueEvent(nodeData, conditionManager, trustManager);
         }
         private void StringConditionNode(DialogueNodeData nodeData)
         {

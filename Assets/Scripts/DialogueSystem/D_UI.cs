@@ -38,7 +38,7 @@ namespace Subtegral.DialogueSystem.Runtime
             }
             else
             {
-                Sprite characterSprite = CharacterDatabase.GetCharacterByID(nodeData.Actor).Visuals;
+                Sprite characterSprite = CharacterDatabase.GetCharacterByID(nodeData.Actor).Portrait;
                 CharacterManager.Instance.SetCharacterVisuals(characterSprite);
                 string text = $"<b>{nodeData.Actor}</b>\n{nodeData.DialogueText}";
                 dialogueText.text = text;

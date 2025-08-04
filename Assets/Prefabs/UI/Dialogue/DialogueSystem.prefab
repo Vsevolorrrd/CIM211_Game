@@ -249,6 +249,7 @@ GameObject:
   - component: {fileID: 8672882361347581150}
   - component: {fileID: 4273396526803424064}
   - component: {fileID: 8530875879925047596}
+  - component: {fileID: 7282748360321572383}
   - component: {fileID: 5178798931834128920}
   - component: {fileID: 5709926631327616206}
   m_Layer: 5
@@ -306,6 +307,20 @@ MonoBehaviour:
   UI: {fileID: 8713779797703352321}
   buttonContainer: {fileID: 2910701228833001786}
   choicePrefab: {fileID: 2483301268387126772, guid: d4b0aeb566520e840afe8ef2fd05e3ca, type: 3}
+--- !u!114 &7282748360321572383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2995623578495828989}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fa2b8747846cdec49a5e832ac524c5f7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  startingTrust: 0
+  trust: 0
 --- !u!114 &5178798931834128920
 MonoBehaviour:
   m_ObjectHideFlags: 0

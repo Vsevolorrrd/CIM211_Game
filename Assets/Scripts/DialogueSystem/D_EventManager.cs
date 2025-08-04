@@ -5,7 +5,7 @@ namespace Subtegral.DialogueSystem.Runtime
 {
     public class D_EventManager : MonoBehaviour
     {
-        public void DialogueEvent(DialogueNodeData nodeData, D_conditionManager conditionManager)
+        public void DialogueEvent(DialogueNodeData nodeData, D_conditionManager conditionManager, D_TrustManager trustManager)
         {
             switch (nodeData.EventType)
             {
@@ -25,7 +25,7 @@ namespace Subtegral.DialogueSystem.Runtime
                     break;
 
                 case DialogueEventType.ChangeInteger:
-
+                    trustManager.UpdateTrust((int)nodeData.EventValue);
                     break;
 
                 case DialogueEventType.PlaySound:
