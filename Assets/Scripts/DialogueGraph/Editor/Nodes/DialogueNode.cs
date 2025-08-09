@@ -13,6 +13,7 @@ namespace Subtegral.DialogueSystem.Editor
 
         // Misc
         public string Actor = "Unknown";
+        public Emotion CharacterEmotion = Emotion.Default;
 
         // Conditions
         public BoolCondition BoolCondition;

@@ -1,0 +1,637 @@
+fileFormatVersion: 2
+guid: 713c620771927ba42ab257f1955f824e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -517958171387939741
+    second: happyPark_0
+  - first:
+      213: -2235759239313742628
+    second: happyPark_1
+  - first:
+      213: 3796138401476100850
+    second: happyPark_2
+  - first:
+      213: 1901973317209267590
+    second: happyPark_3
+  - first:
+      213: -3700136708042508662
+    second: happyPark_4
+  - first:
+      213: 7218933594481644398
+    second: happyPark_5
+  - first:
+      213: 897566467790605924
+    second: happyPark_6
+  - first:
+      213: 6165202850090709667
+    second: happyPark_7
+  - first:
+      213: -4900944328161060362
+    second: happyPark_8
+  - first:
+      213: 7108033667138982626
+    second: happyPark_9
+  - first:
+      213: -4221224100453713557
+    second: happyPark_10
+  - first:
+      213: 950955983158219395
+    second: happyPark_11
+  - first:
+      213: 7625792985620152679
+    second: happyPark_12
+  - first:
+      213: -8957221367493629031
+    second: happyPark_13
+  - first:
+      213: 8014263473649863850
+    second: happyPark_14
+  - first:
+      213: -5577781634193861893
+    second: happyPark_15
+  - first:
+      213: -745795717922107192
+    second: happyPark_16
+  - first:
+      213: -1400352732751736952
+    second: happyPark_17
+  - first:
+      213: 5710610976114826626
+    second: happyPark_18
+  - first:
+      213: -322679014992443415
+    second: happyPark_19
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 290
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: happyPark_0
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1631
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 36439e199c7dfc8f0800000000000000
+      internalID: -517958171387939741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_1
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1628
+        width: 83
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cd4286141dcf8f0e0800000000000000
+      internalID: -2235759239313742628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_2
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1601
+        width: 83
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2f2c33a63c79ea430800000000000000
+      internalID: 3796138401476100850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_3
+      rect:
+        serializedVersion: 2
+        x: 884
+        y: 1574
+        width: 63
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 68d9788a7aa256a10800000000000000
+      internalID: 1901973317209267590
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_4
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1579
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a863eb8a44976acc0800000000000000
+      internalID: -3700136708042508662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_5
+      rect:
+        serializedVersion: 2
+        x: 797
+        y: 1527
+        width: 70
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e63563c4bddce2460800000000000000
+      internalID: 7218933594481644398
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_6
+      rect:
+        serializedVersion: 2
+        x: 847
+        y: 1499
+        width: 30
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 46e06fa62fbc47c00800000000000000
+      internalID: 897566467790605924
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_7
+      rect:
+        serializedVersion: 2
+        x: 943
+        y: 1508
+        width: 84
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3a2f1e7d3533f8550800000000000000
+      internalID: 6165202850090709667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_8
+      rect:
+        serializedVersion: 2
+        x: 954
+        y: 1508
+        width: 170
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f99eff89195cfbb0800000000000000
+      internalID: -4900944328161060362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_9
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1438
+        width: 128
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2e21655d5fec4a260800000000000000
+      internalID: 7108033667138982626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_10
+      rect:
+        serializedVersion: 2
+        x: 723
+        y: 1409
+        width: 138
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b69732fab033b65c0800000000000000
+      internalID: -4221224100453713557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_11
+      rect:
+        serializedVersion: 2
+        x: 978
+        y: 1406
+        width: 138
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3829d25ad69723d00800000000000000
+      internalID: 950955983158219395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_12
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1312
+        width: 29
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7610e86315244d960800000000000000
+      internalID: 7625792985620152679
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_13
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1321
+        width: 20
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99be008af9e81b380800000000000000
+      internalID: -8957221367493629031
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_14
+      rect:
+        serializedVersion: 2
+        x: 937
+        y: 1321
+        width: 13
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aacc94bfa22683f60800000000000000
+      internalID: 8014263473649863850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_15
+      rect:
+        serializedVersion: 2
+        x: 996
+        y: 1238
+        width: 45
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf25d23f72db792b0800000000000000
+      internalID: -5577781634193861893
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_16
+      rect:
+        serializedVersion: 2
+        x: 811
+        y: 1226
+        width: 32
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c0de36feb666a5f0800000000000000
+      internalID: -745795717922107192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_17
+      rect:
+        serializedVersion: 2
+        x: 833
+        y: 1211
+        width: 187
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88fc514eb92f09ce0800000000000000
+      internalID: -1400352732751736952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_18
+      rect:
+        serializedVersion: 2
+        x: 1056
+        y: 1251
+        width: 11
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 28d55c93d6a204f40800000000000000
+      internalID: 5710610976114826626
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: happyPark_19
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1180
+        width: 45
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e707ee352d958bf0800000000000000
+      internalID: -322679014992443415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      happyPark_0: -517958171387939741
+      happyPark_1: -2235759239313742628
+      happyPark_10: -4221224100453713557
+      happyPark_11: 950955983158219395
+      happyPark_12: 7625792985620152679
+      happyPark_13: -8957221367493629031
+      happyPark_14: 8014263473649863850
+      happyPark_15: -5577781634193861893
+      happyPark_16: -745795717922107192
+      happyPark_17: -1400352732751736952
+      happyPark_18: 5710610976114826626
+      happyPark_19: -322679014992443415
+      happyPark_2: 3796138401476100850
+      happyPark_3: 1901973317209267590
+      happyPark_4: -3700136708042508662
+      happyPark_5: 7218933594481644398
+      happyPark_6: 897566467790605924
+      happyPark_7: 6165202850090709667
+      happyPark_8: -4900944328161060362
+      happyPark_9: 7108033667138982626
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

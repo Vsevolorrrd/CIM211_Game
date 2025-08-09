@@ -96,6 +96,7 @@ namespace Subtegral.DialogueSystem.Editor
                 {
                     case DialogueNodeType.Basic:
                         nodeData.Actor = node.Actor;
+                        nodeData.CharacterEmotion = node.CharacterEmotion;
                         break;
 
                     case DialogueNodeType.Event:

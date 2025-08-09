@@ -1,0 +1,437 @@
+fileFormatVersion: 2
+guid: f17cd1bb2f27d29468d28c8749e5fdac
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8594959566014206283
+    second: DinnerEnviroment_0
+  - first:
+      213: -2002215459813729632
+    second: DinnerEnviroment_1
+  - first:
+      213: 8307549796810097994
+    second: DinnerEnviroment_2
+  - first:
+      213: -3640589304542929389
+    second: DinnerEnviroment_3
+  - first:
+      213: -7689212138551097860
+    second: DinnerEnviroment_4
+  - first:
+      213: 8943846043208705774
+    second: DinnerEnviroment_5
+  - first:
+      213: 3929144242092000178
+    second: DinnerEnviroment_6
+  - first:
+      213: 9201399307843266075
+    second: DinnerEnviroment_7
+  - first:
+      213: -2573128623255616647
+    second: DinnerEnviroment_8
+  - first:
+      213: -2259837876745119791
+    second: DinnerEnviroment_9
+  - first:
+      213: -4837386169710251159
+    second: DinnerEnviroment_10
+  - first:
+      213: 3741036614143935364
+    second: DinnerEnviroment_11
+  - first:
+      213: 6032692738652633328
+    second: DinnerEnviroment_12
+  - first:
+      213: -963843518148934123
+    second: DinnerEnviroment_13
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 140
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 4096
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: DinnerEnviroment_0
+      rect:
+        serializedVersion: 2
+        x: 179
+        y: 1642
+        width: 342
+        height: 378
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b415f1fef2e674770800000000000000
+      internalID: 8594959566014206283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinnerEnviroment_1
+      rect:
+        serializedVersion: 2
+        x: 968
+        y: 1484
+        width: 204
+        height: 226
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0aad102c5a3b634e0800000000000000
+      internalID: -2002215459813729632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinnerEnviroment_2
+      rect:
+        serializedVersion: 2
+        x: 2078
+        y: 1484
+        width: 190
+        height: 210
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a450cb066885a4370800000000000000
+      internalID: 8307549796810097994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinnerEnviroment_3
+      rect:
+        serializedVersion: 2
+        x: 2478
+        y: 1671
+        width: 342
+        height: 377
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31ed1a1f0570a7dc0800000000000000
+      internalID: -3640589304542929389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinnerEnviroment_4
+      rect:
+        serializedVersion: 2
+        x: 64
+        y: 706
+        width: 433
+        height: 422
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf54a079c4e6a4590800000000000000
+      internalID: -7689212138551097860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinnerEnviroment_5
+      rect:
+        serializedVersion: 2
+        x: 559
+        y: 680
+        width: 486
+        height: 345
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee6ec3bf69cee1c70800000000000000
+      internalID: 8943846043208705774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinnerEnviroment_6
+      rect:
+        serializedVersion: 2
+        x: 1067
+        y: 706
+        width: 364
+        height: 426
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b34a25eedf178630800000000000000
+      internalID: 3929144242092000178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinnerEnviroment_7
+      rect:
+        serializedVersion: 2
+        x: 1680
+        y: 692
+        width: 271
+        height: 428
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b16e58c5befe1bf70800000000000000
+      internalID: 9201399307843266075
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinnerEnviroment_8
+      rect:
+        serializedVersion: 2
+        x: 2061
+        y: 724
+        width: 405
+        height: 346
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 973857176296a4cd0800000000000000
+      internalID: -2573128623255616647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinnerEnviroment_9
+      rect:
+        serializedVersion: 2
+        x: 2578
+        y: 696
+        width: 326
+        height: 424
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d752aa9c6173a0e0800000000000000
+      internalID: -2259837876745119791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinnerEnviroment_10
+      rect:
+        serializedVersion: 2
+        x: 3521
+        y: 1016
+        width: 366
+        height: 506
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 963780188e62edcb0800000000000000
+      internalID: -4837386169710251159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: DinnerEnviroment_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 4096
+        height: 560
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5168ba94d6dbf92f0800000000000000
+      internalID: -963843518148934123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 95d34ec7263f9464fad7136c53e5a2e9
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      DinnerEnviroment_0: 8594959566014206283
+      DinnerEnviroment_1: -2002215459813729632
+      DinnerEnviroment_10: -4837386169710251159
+      DinnerEnviroment_11: 3741036614143935364
+      DinnerEnviroment_12: 6032692738652633328
+      DinnerEnviroment_13: -963843518148934123
+      DinnerEnviroment_2: 8307549796810097994
+      DinnerEnviroment_3: -3640589304542929389
+      DinnerEnviroment_4: -7689212138551097860
+      DinnerEnviroment_5: 8943846043208705774
+      DinnerEnviroment_6: 3929144242092000178
+      DinnerEnviroment_7: 9201399307843266075
+      DinnerEnviroment_8: -2573128623255616647
+      DinnerEnviroment_9: -2259837876745119791
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

@@ -1,7 +1,8 @@
+using Characters;
 using UnityEngine;
 using UnityEngine.Events;
 
-public class ShiftManager : MonoBehaviour
+public class ShiftManager : Singleton<ShiftManager>
 {
     [Header("Shift Data")]
     public NightShift currentShift;
@@ -10,15 +11,16 @@ public class ShiftManager : MonoBehaviour
     public float timeScale = 1f;
 
     [Header("Events")]
-    public UnityEvent<CustomerVisit> onCustomerArrived;
     public UnityEvent onShiftEnded;
 
+    private CustomerVisit currentCustomer;
     private float shiftTimer; // In minutes
     private int currentCustomerIndex = 0;
     private bool isShiftActive;
 
-    private float approvalScore = 100f;
+    private int approvalScore = 100;
 
+    public CustomerVisit GetCustomerVisit() => currentCustomer;
     public float GetCurrentTime() => shiftTimer;
     public float GetApprovalScore() => approvalScore;
 
@@ -40,8 +42,10 @@ public class ShiftManager : MonoBehaviour
 
             if (shiftTimer >= next.appearanceTimeInMinutes)
             {
-                onCustomerArrived?.Invoke(next);
                 currentCustomerIndex++;
+                currentCustomer = next;
+                Character character = CharacterDatabase.GetCharacterByID(currentCustomer.customer.CharacterID);
+                CharacterManager.Instance.SetCharacterVisuals(character);
             }
         }
 
@@ -57,7 +61,7 @@ public class ShiftManager : MonoBehaviour
         shiftTimer = 0f;
         currentCustomerIndex = 0;
         isShiftActive = true;
-        approvalScore = 100f;
+        approvalScore = 100;
     }
 
     public void EndShift()
@@ -67,15 +71,15 @@ public class ShiftManager : MonoBehaviour
         onShiftEnded?.Invoke();
     }
 
-    public void Penalize(float amount)
+    public void Penalize(int amount)
     {
-        approvalScore = Mathf.Max(0f, approvalScore - amount);
+        approvalScore = approvalScore - amount;
         Debug.Log($"Penalty: -{amount}");
     }
 
-    public void Reward(float amount)
+    public void Reward(int amount)
     {
-        approvalScore = Mathf.Min(100f, approvalScore + amount);
+        approvalScore = approvalScore + amount;
         Debug.Log($"Reward: +{amount}");
     }
 }

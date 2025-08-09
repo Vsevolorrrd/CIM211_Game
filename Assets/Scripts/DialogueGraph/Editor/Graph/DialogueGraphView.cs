@@ -197,6 +197,22 @@ namespace Subtegral.DialogueSystem.Editor
 
             #endregion
 
+            if (savedData != null) // loading the saved data
+            {
+                node.CharacterEmotion = savedData.CharacterEmotion;
+            }
+
+            var emotionField = new EnumField("Emotion", Emotion.Default)
+            {
+                value = node.CharacterEmotion
+            };
+            emotionField.RegisterValueChangedCallback(evt =>
+            {
+                node.CharacterEmotion = (Emotion)evt.newValue;
+            });
+
+            node.mainContainer.Add(emotionField);
+
             // Output port
             var outputPort = GetPortInstance(node, Direction.Output, Port.Capacity.Single);
             outputPort.portColor = new Color(0.5f, 0.1f, 0.8f);

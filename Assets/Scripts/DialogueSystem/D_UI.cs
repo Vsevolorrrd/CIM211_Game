@@ -3,7 +3,6 @@ using UnityEngine.UI;
 using UnityEngine;
 using System.Linq;
 using TMPro;
-using Characters;
 
 namespace Subtegral.DialogueSystem.Runtime
 {
@@ -38,8 +37,6 @@ namespace Subtegral.DialogueSystem.Runtime
             }
             else
             {
-                Sprite characterSprite = CharacterDatabase.GetCharacterByID(nodeData.Actor).Portrait;
-                CharacterManager.Instance.SetCharacterVisuals(characterSprite);
                 string text = $"<b>{nodeData.Actor}</b>\n{nodeData.DialogueText}";
                 dialogueText.text = text;
             }

@@ -9,7 +9,8 @@ namespace Characters
 
         private Dictionary<string, Character> characters = new();
 
-        [SerializeField] SpriteRenderer characterRenderer;
+        [SerializeField] Transform spawn;
+        private Character currentCharacter;
 
 
         void Awake()
@@ -42,9 +43,11 @@ namespace Characters
             Debug.LogWarning($"Character with ID '{id}' not found.");
             return null;
         }
-        public void SetCharacterVisuals(Sprite sprite)
+        public void SetCharacterVisuals(Character character, string emotion = "default")
         {
-            characterRenderer.sprite = sprite;
+            var spawnedChar = Instantiate(character.characterPrefab, spawn.position, Quaternion.identity);
+            spawnedChar.GetComponent<CharacterHolder>().SwitchEmotions(emotion);
+            currentCharacter = character;
         }
     }
 }

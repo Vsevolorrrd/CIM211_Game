@@ -1,0 +1,741 @@
+fileFormatVersion: 2
+guid: 06605da01550dc44abc805d200967c84
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5093443318459007310
+    second: neutralPark_0
+  - first:
+      213: -4635311295322276229
+    second: neutralPark_1
+  - first:
+      213: 620374959493673711
+    second: neutralPark_2
+  - first:
+      213: -4423856927089439916
+    second: neutralPark_3
+  - first:
+      213: -3918887002585877314
+    second: neutralPark_4
+  - first:
+      213: -7680083282750745605
+    second: neutralPark_5
+  - first:
+      213: 650303965332018119
+    second: neutralPark_6
+  - first:
+      213: 1045271863685123365
+    second: neutralPark_7
+  - first:
+      213: -7734284774880096188
+    second: neutralPark_8
+  - first:
+      213: 7786918412072233844
+    second: neutralPark_9
+  - first:
+      213: 3665916094750310540
+    second: neutralPark_10
+  - first:
+      213: -4235253234836026802
+    second: neutralPark_11
+  - first:
+      213: 2089986175228352288
+    second: neutralPark_12
+  - first:
+      213: -3564659492380623490
+    second: neutralPark_13
+  - first:
+      213: -5133430074129531699
+    second: neutralPark_14
+  - first:
+      213: 3262741624106611307
+    second: neutralPark_15
+  - first:
+      213: -2378258117447190912
+    second: neutralPark_16
+  - first:
+      213: -2599295329274531240
+    second: neutralPark_17
+  - first:
+      213: -5155720976122863006
+    second: neutralPark_18
+  - first:
+      213: 5978601734440326538
+    second: neutralPark_19
+  - first:
+      213: 1911955204969783026
+    second: neutralPark_20
+  - first:
+      213: 6854317016954923070
+    second: neutralPark_21
+  - first:
+      213: -4281229641367144019
+    second: neutralPark_22
+  - first:
+      213: -1262708452186668907
+    second: neutralPark_23
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 290
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: neutralPark_0
+      rect:
+        serializedVersion: 2
+        x: 1790
+        y: 1848
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e41065046bb8fa640800000000000000
+      internalID: 5093443318459007310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_1
+      rect:
+        serializedVersion: 2
+        x: 899
+        y: 1631
+        width: 26
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b7eb5f29fe01cafb0800000000000000
+      internalID: -4635311295322276229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_2
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1628
+        width: 83
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe2fa202db30c9800800000000000000
+      internalID: 620374959493673711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_3
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1602
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45bceab309d4b92c0800000000000000
+      internalID: -4423856927089439916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_4
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1603
+        width: 9
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb439f7c8015d99c0800000000000000
+      internalID: -3918887002585877314
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_5
+      rect:
+        serializedVersion: 2
+        x: 895
+        y: 1601
+        width: 61
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bf3d936f1fcda6590800000000000000
+      internalID: -7680083282750745605
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_6
+      rect:
+        serializedVersion: 2
+        x: 871
+        y: 1576
+        width: 18
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c394a1d208560900800000000000000
+      internalID: 650303965332018119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_7
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1574
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52d89a0d83d818e00800000000000000
+      internalID: 1045271863685123365
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_8
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1579
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4405f89a9fc4aa490800000000000000
+      internalID: -7734284774880096188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_9
+      rect:
+        serializedVersion: 2
+        x: 722
+        y: 1508
+        width: 8
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47ba386f901b01c60800000000000000
+      internalID: 7786918412072233844
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_10
+      rect:
+        serializedVersion: 2
+        x: 752
+        y: 1486
+        width: 132
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c80cafbe343ffd230800000000000000
+      internalID: 3665916094750310540
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_11
+      rect:
+        serializedVersion: 2
+        x: 799
+        y: 1513
+        width: 53
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e4a46cb4f9b5935c0800000000000000
+      internalID: -4235253234836026802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_12
+      rect:
+        serializedVersion: 2
+        x: 974
+        y: 1492
+        width: 166
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02796f76a5f110d10800000000000000
+      internalID: 2089986175228352288
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_13
+      rect:
+        serializedVersion: 2
+        x: 720
+        y: 1372
+        width: 167
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7dbd6bf319c78ec0800000000000000
+      internalID: -3564659492380623490
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_14
+      rect:
+        serializedVersion: 2
+        x: 883
+        y: 1312
+        width: 31
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dccb330bb8462c8b0800000000000000
+      internalID: -5133430074129531699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_15
+      rect:
+        serializedVersion: 2
+        x: 960
+        y: 1379
+        width: 164
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6271ca6836974d20800000000000000
+      internalID: 3262741624106611307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_16
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1321
+        width: 21
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 086fe5db7dabefed0800000000000000
+      internalID: -2378258117447190912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_17
+      rect:
+        serializedVersion: 2
+        x: 938
+        y: 1323
+        width: 9
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 85272407ba27debd0800000000000000
+      internalID: -2599295329274531240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_18
+      rect:
+        serializedVersion: 2
+        x: 818
+        y: 1225
+        width: 32
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 262aa21a6133378b0800000000000000
+      internalID: -5155720976122863006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_19
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 1215
+        width: 144
+        height: 41
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8599daf99248f250800000000000000
+      internalID: 5978601734440326538
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_20
+      rect:
+        serializedVersion: 2
+        x: 973
+        y: 1193
+        width: 81
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2fedea20121a88a10800000000000000
+      internalID: 1911955204969783026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_21
+      rect:
+        serializedVersion: 2
+        x: 1032
+        y: 1242
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e38638dd20d6f1f50800000000000000
+      internalID: 6854317016954923070
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_22
+      rect:
+        serializedVersion: 2
+        x: 829
+        y: 1190
+        width: 18
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: da93078f2540694c0800000000000000
+      internalID: -4281229641367144019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: neutralPark_23
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1195
+        width: 30
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 590c7845a55f97ee0800000000000000
+      internalID: -1262708452186668907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      neutralPark_0: 5093443318459007310
+      neutralPark_1: -4635311295322276229
+      neutralPark_10: 3665916094750310540
+      neutralPark_11: -4235253234836026802
+      neutralPark_12: 2089986175228352288
+      neutralPark_13: -3564659492380623490
+      neutralPark_14: -5133430074129531699
+      neutralPark_15: 3262741624106611307
+      neutralPark_16: -2378258117447190912
+      neutralPark_17: -2599295329274531240
+      neutralPark_18: -5155720976122863006
+      neutralPark_19: 5978601734440326538
+      neutralPark_2: 620374959493673711
+      neutralPark_20: 1911955204969783026
+      neutralPark_21: 6854317016954923070
+      neutralPark_22: -4281229641367144019
+      neutralPark_23: -1262708452186668907
+      neutralPark_3: -4423856927089439916
+      neutralPark_4: -3918887002585877314
+      neutralPark_5: -7680083282750745605
+      neutralPark_6: 650303965332018119
+      neutralPark_7: 1045271863685123365
+      neutralPark_8: -7734284774880096188
+      neutralPark_9: 7786918412072233844
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

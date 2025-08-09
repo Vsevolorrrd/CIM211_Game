@@ -11,6 +11,7 @@ namespace Subtegral.DialogueSystem.DataContainers
         public Vector2 Position;
 
         public DialogueNodeType NodeType;
+        public Emotion CharacterEmotion;
         public string Actor;
         public string DisplayText;
 

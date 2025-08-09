@@ -2,6 +2,7 @@ using Subtegral.DialogueSystem.DataContainers;
 using System.Linq;
 using System.Collections;
 using UnityEngine;
+using Characters;
 
 namespace Subtegral.DialogueSystem.Runtime
 {
@@ -79,6 +80,9 @@ namespace Subtegral.DialogueSystem.Runtime
         private void BasicNode(DialogueNodeData nodeData)
         {
             UIManager.CreateText(nodeData);
+            Character character = CharacterDatabase.GetCharacterByID(nodeData.Actor);
+            CharacterManager.Instance.SetCharacterVisuals
+            (character, nodeData.CharacterEmotion.ToString().ToLowerInvariant());
 
             savedDialogueNodeData = nodeData;
             awatingImput = true;

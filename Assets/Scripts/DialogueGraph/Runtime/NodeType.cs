@@ -10,4 +10,11 @@ namespace Subtegral.DialogueSystem
         RandomCondition,
         End
     }
+    public enum Emotion
+    {
+        Default,
+        Happy,
+        Sad,
+        Angry
+    }
 }

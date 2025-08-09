@@ -1,0 +1,611 @@
+fileFormatVersion: 2
+guid: 8bde2c25f54474c42a19508818807b07
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8879872179137004876
+    second: sadPark_0
+  - first:
+      213: -7496727141015411729
+    second: sadPark_1
+  - first:
+      213: 5063782464868551242
+    second: sadPark_2
+  - first:
+      213: -6320478573676151369
+    second: sadPark_3
+  - first:
+      213: 1951677056538146625
+    second: sadPark_4
+  - first:
+      213: -2904911659839637123
+    second: sadPark_5
+  - first:
+      213: 8233095566627390422
+    second: sadPark_6
+  - first:
+      213: -1127997132265972361
+    second: sadPark_7
+  - first:
+      213: 7166606513021980891
+    second: sadPark_8
+  - first:
+      213: 3078641951978460407
+    second: sadPark_9
+  - first:
+      213: -3692768321494896346
+    second: sadPark_10
+  - first:
+      213: 1625555962069319531
+    second: sadPark_11
+  - first:
+      213: -1251248078154817638
+    second: sadPark_12
+  - first:
+      213: 6482190112452919937
+    second: sadPark_13
+  - first:
+      213: 7515231991371012513
+    second: sadPark_14
+  - first:
+      213: -128510577242988765
+    second: sadPark_15
+  - first:
+      213: -2696713573196009955
+    second: sadPark_16
+  - first:
+      213: -1002336194374585095
+    second: sadPark_17
+  - first:
+      213: 4098496649464972192
+    second: sadPark_18
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 290
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: sadPark_0
+      rect:
+        serializedVersion: 2
+        x: 904
+        y: 1631
+        width: 21
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c45c55803b4ab3b70800000000000000
+      internalID: 8879872179137004876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_1
+      rect:
+        serializedVersion: 2
+        x: 948
+        y: 1628
+        width: 83
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fe32fb5726646f790800000000000000
+      internalID: -7496727141015411729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_2
+      rect:
+        serializedVersion: 2
+        x: 873
+        y: 1601
+        width: 83
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4a875e925b264640800000000000000
+      internalID: 5063782464868551242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_3
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1524
+        width: 124
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7bdb09d79362948a0800000000000000
+      internalID: -6320478573676151369
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_4
+      rect:
+        serializedVersion: 2
+        x: 907
+        y: 1574
+        width: 40
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1477c3741ffb51b10800000000000000
+      internalID: 1951677056538146625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_5
+      rect:
+        serializedVersion: 2
+        x: 955
+        y: 1579
+        width: 15
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d793e5b7c3eafa7d0800000000000000
+      internalID: -2904911659839637123
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_6
+      rect:
+        serializedVersion: 2
+        x: 736
+        y: 1522
+        width: 15
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6d34baa0cc4d14270800000000000000
+      internalID: 8233095566627390422
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_7
+      rect:
+        serializedVersion: 2
+        x: 961
+        y: 1520
+        width: 155
+        height: 55
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77d90a7a59c8850f0800000000000000
+      internalID: -1127997132265972361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_8
+      rect:
+        serializedVersion: 2
+        x: 778
+        y: 1477
+        width: 126
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd01dad37a6e47360800000000000000
+      internalID: 7166606513021980891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_9
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1481
+        width: 145
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f49a424b8889ba20800000000000000
+      internalID: 3078641951978460407
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_10
+      rect:
+        serializedVersion: 2
+        x: 888
+        y: 1458
+        width: 16
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6213b77d6c6a0ccc0800000000000000
+      internalID: -3692768321494896346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_11
+      rect:
+        serializedVersion: 2
+        x: 984
+        y: 1387
+        width: 147
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6ff8a1f8822f8610800000000000000
+      internalID: 1625555962069319531
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_12
+      rect:
+        serializedVersion: 2
+        x: 727
+        y: 1369
+        width: 140
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9f11b7908ca2aee0800000000000000
+      internalID: -1251248078154817638
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_13
+      rect:
+        serializedVersion: 2
+        x: 885
+        y: 1312
+        width: 29
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1824e4b209d55f950800000000000000
+      internalID: 6482190112452919937
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_14
+      rect:
+        serializedVersion: 2
+        x: 918
+        y: 1321
+        width: 29
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a91252cda77b4860800000000000000
+      internalID: 7515231991371012513
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_15
+      rect:
+        serializedVersion: 2
+        x: 819
+        y: 1207
+        width: 40
+        height: 101
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32f1d859f40773ef0800000000000000
+      internalID: -128510577242988765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_16
+      rect:
+        serializedVersion: 2
+        x: 846
+        y: 1212
+        width: 176
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1e6da00b49539ad0800000000000000
+      internalID: -2696713573196009955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_17
+      rect:
+        serializedVersion: 2
+        x: 1006
+        y: 1197
+        width: 42
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9f439c4ba8cf612f0800000000000000
+      internalID: -1002336194374585095
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: sadPark_18
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 1190
+        width: 46
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a30d78ecf8c0e830800000000000000
+      internalID: 4098496649464972192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      sadPark_0: 8879872179137004876
+      sadPark_1: -7496727141015411729
+      sadPark_10: -3692768321494896346
+      sadPark_11: 1625555962069319531
+      sadPark_12: -1251248078154817638
+      sadPark_13: 6482190112452919937
+      sadPark_14: 7515231991371012513
+      sadPark_15: -128510577242988765
+      sadPark_16: -2696713573196009955
+      sadPark_17: -1002336194374585095
+      sadPark_18: 4098496649464972192
+      sadPark_2: 5063782464868551242
+      sadPark_3: -6320478573676151369
+      sadPark_4: 1951677056538146625
+      sadPark_5: -2904911659839637123
+      sadPark_6: 8233095566627390422
+      sadPark_7: -1127997132265972361
+      sadPark_8: 7166606513021980891
+      sadPark_9: 3078641951978460407
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
