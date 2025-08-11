@@ -10,7 +10,7 @@ namespace Characters
         private Dictionary<string, Character> characters = new();
 
         [SerializeField] Transform spawn;
-        private Character currentCharacter;
+        private GameObject currentCharacter;
 
 
         void Awake()
@@ -45,9 +45,23 @@ namespace Characters
         }
         public void SetCharacterVisuals(Character character, string emotion = "default")
         {
+            if (currentCharacter != null)
+            Destroy(currentCharacter);
+
             var spawnedChar = Instantiate(character.characterPrefab, spawn.position, Quaternion.identity);
             spawnedChar.GetComponent<CharacterHolder>().SwitchEmotions(emotion);
-            currentCharacter = character;
+
+            currentCharacter = spawnedChar;
+        }
+        public GameObject SpawnCharacter(Character character, string emotion = "default")
+        {
+            if (currentCharacter != null)
+            Destroy(currentCharacter);
+
+            var spawnedChar = Instantiate(character.characterPrefab, spawn.position, Quaternion.identity);
+            spawnedChar.GetComponent<CharacterHolder>().SwitchEmotions(emotion);
+            currentCharacter = spawnedChar;
+            return spawnedChar;
         }
     }
 }

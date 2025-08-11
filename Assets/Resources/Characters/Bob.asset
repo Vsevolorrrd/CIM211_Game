@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ed8fc68af819daa43870e860068ba7ce, type: 3}
-  m_Name: NewDrink 2
+  m_Script: {fileID: 11500000, guid: 37106883449a1ec40852947ab4cb3c03, type: 3}
+  m_Name: Bob
   m_EditorClassIdentifier: 
-  drinkName: 
-  icon: {fileID: 0}
-  ingredients: []
+  CharacterID: Bob
+  CharacterName: Bob
+  characterPrefab: {fileID: 441092872659871293, guid: afe15d69091c5b8468d061158d182ded, type: 3}

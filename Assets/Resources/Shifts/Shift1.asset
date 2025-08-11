@@ -12,9 +12,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73280346139997042b6d64edd6737e5f, type: 3}
   m_Name: Shift1
   m_EditorClassIdentifier: 
-  shiftDurationInMinutes: 60
+  shiftDurationInMinutes: 120
   customerVisits:
   - customer: {fileID: 11400000, guid: 513ef48cc548a014990deb9a66429b8c, type: 2}
     appearanceTimeInMinutes: 4
-    requestedDrink: {fileID: 0}
-    dialogue: {fileID: 0}
+    requestedDrink: {fileID: 11400000, guid: 8e63d8f0541ad364ea79f4d6623dcc0d, type: 2}
+    dialogue: {fileID: 11400000, guid: f7de2d1e85c2af145b09cc3b184d44d8, type: 2}
+  - customer: {fileID: 11400000, guid: 513ef48cc548a014990deb9a66429b8c, type: 2}
+    appearanceTimeInMinutes: 4
+    requestedDrink: {fileID: 11400000, guid: 8e63d8f0541ad364ea79f4d6623dcc0d, type: 2}
+    dialogue: {fileID: 11400000, guid: f7de2d1e85c2af145b09cc3b184d44d8, type: 2}
+  - customer: {fileID: 11400000, guid: 513ef48cc548a014990deb9a66429b8c, type: 2}
+    appearanceTimeInMinutes: 4
+    requestedDrink: {fileID: 11400000, guid: 8e63d8f0541ad364ea79f4d6623dcc0d, type: 2}
+    dialogue: {fileID: 11400000, guid: f7de2d1e85c2af145b09cc3b184d44d8, type: 2}

@@ -1,6 +1,5 @@
 using Characters;
 using UnityEngine;
-using UnityEngine.Events;
 
 public class ShiftManager : Singleton<ShiftManager>
 {
@@ -10,11 +9,8 @@ public class ShiftManager : Singleton<ShiftManager>
     [Header("Settings")]
     public float timeScale = 1f;
 
-    [Header("Events")]
-    public UnityEvent onShiftEnded;
-
     private CustomerVisit currentCustomer;
-    private float shiftTimer; // In minutes
+    public float shiftTimer; // In minutes
     private int currentCustomerIndex = 0;
     private bool isShiftActive;
 
@@ -34,7 +30,7 @@ public class ShiftManager : Singleton<ShiftManager>
     {
         if (!isShiftActive) return;
 
-        shiftTimer += Time.deltaTime / 60f * timeScale;
+        shiftTimer += Time.deltaTime * timeScale;
 
         if (currentCustomerIndex < currentShift.customerVisits.Count)
         {
@@ -45,7 +41,10 @@ public class ShiftManager : Singleton<ShiftManager>
                 currentCustomerIndex++;
                 currentCustomer = next;
                 Character character = CharacterDatabase.GetCharacterByID(currentCustomer.customer.CharacterID);
-                CharacterManager.Instance.SetCharacterVisuals(character);
+                var spawnedCharacter = CharacterManager.Instance.SpawnCharacter(character);
+
+                spawnedCharacter.GetComponent<DialogueActivator>().
+                dialogue = currentCustomer.dialogue;
             }
         }
 
@@ -68,7 +67,6 @@ public class ShiftManager : Singleton<ShiftManager>
     {
         isShiftActive = false;
         Debug.Log("Shift ended with approval: " + approvalScore);
-        onShiftEnded?.Invoke();
     }
 
     public void Penalize(int amount)

@@ -97,6 +97,8 @@ GameObject:
   m_Component:
   - component: {fileID: 5813090180388913791}
   - component: {fileID: 8350295829278545695}
+  - component: {fileID: 8122385557365974976}
+  - component: {fileID: 279930719116509343}
   m_Layer: 0
   m_Name: Mina
   m_TagString: Untagged
@@ -137,6 +139,78 @@ MonoBehaviour:
   angryFace: {fileID: 1857661143402227847}
   sadFace: {fileID: 8636252541848821960}
   happyFace: {fileID: 4767462626167762191}
+--- !u!114 &8122385557365974976
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441092872659871293}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 836e1522ca7fec04bac4af2d7e609806, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!60 &279930719116509343
+PolygonCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 441092872659871293}
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_ForceSendLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ForceReceiveLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_ContactCaptureLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_CallbackLayers:
+    serializedVersion: 2
+    m_Bits: 4294967295
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_CompositeOperation: 0
+  m_CompositeOrder: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0, y: 0}
+    oldSize: {x: 0, y: 0}
+    newSize: {x: 0, y: 0}
+    adaptiveTilingThreshold: 0
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  m_Points:
+    m_Paths:
+    - - {x: 1.1000601, y: 2.7611396}
+      - {x: 0.65661305, y: 3.025167}
+      - {x: 0.136531, y: 3.11623}
+      - {x: -0.42591172, y: 3.0511186}
+      - {x: -0.89045715, y: 2.7211857}
+      - {x: -2.0346155, y: -0.09374547}
+      - {x: -2.0569825, y: -1.2903215}
+      - {x: -1.2853692, y: -2.6975985}
+      - {x: -1.53185, y: -3.6709871}
+      - {x: 1.7934136, y: -3.640344}
+      - {x: 1.8033929, y: -1.5285265}
+      - {x: 2.0680242, y: -0.12844658}
+      - {x: 1.5635704, y: 1.6361284}
+  m_UseDelaunayMesh: 0
 --- !u!1 &1857661143402227847
 GameObject:
   m_ObjectHideFlags: 0
