@@ -45,13 +45,21 @@ namespace Characters
         }
         public void SetCharacterVisuals(Character character, string emotion = "default")
         {
-            if (currentCharacter != null)
-            Destroy(currentCharacter);
+            if (currentCharacter.GetComponent<CharacterHolder>().character != character)
+            {
+                Destroy(currentCharacter);
 
-            var spawnedChar = Instantiate(character.characterPrefab, spawn.position, Quaternion.identity);
-            spawnedChar.GetComponent<CharacterHolder>().SwitchEmotions(emotion);
+                var spawnedChar = Instantiate(character.characterPrefab, spawn.position, Quaternion.identity);
+                var charHolder = spawnedChar.GetComponent<CharacterHolder>();
+                charHolder.SwitchEmotions(emotion);
+                charHolder.character = character;
+                currentCharacter = spawnedChar;
 
-            currentCharacter = spawnedChar;
+                return;
+            }
+
+            currentCharacter.GetComponent<CharacterHolder>().SwitchEmotions(emotion);
+
         }
         public GameObject SpawnCharacter(Character character, string emotion = "default")
         {
@@ -59,8 +67,11 @@ namespace Characters
             Destroy(currentCharacter);
 
             var spawnedChar = Instantiate(character.characterPrefab, spawn.position, Quaternion.identity);
-            spawnedChar.GetComponent<CharacterHolder>().SwitchEmotions(emotion);
+            var charHolder = spawnedChar.GetComponent<CharacterHolder>();
+            charHolder.SwitchEmotions(emotion);
+            charHolder.character = character;
             currentCharacter = spawnedChar;
+
             return spawnedChar;
         }
     }

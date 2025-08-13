@@ -2,6 +2,7 @@ using UnityEngine;
 
 public class CharacterHolder : MonoBehaviour
 {
+    public Character character;
     [SerializeField] GameObject defaultFace;
     [SerializeField] GameObject angryFace;
     [SerializeField] GameObject sadFace;
