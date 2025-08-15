@@ -11,15 +11,22 @@ public class DrinkManager : Singleton<DrinkManager>
         currentDrink.Add(name);
         Debug.Log("Added: " + name);
     }
+    public bool DrinkDone()
+    {
+        if (currentDrink.Count <= 0)
+        return false;
 
-    public void FinishDrink()
+        return true;
+    }
+
+    public bool FinishDrink()
     {
         var visit = ShiftManager.Instance?.GetCustomerVisit();
 
         if (visit == null)
         {
-            Debug.LogWarning("No current customer visit found.");
-            return;
+            Debug.LogWarning("No current customer visit found");
+            return false;
         }
 
         var ingredientsForDrink = new List<string>(visit.requestedDrink.ingredients);
@@ -30,14 +37,16 @@ public class DrinkManager : Singleton<DrinkManager>
         {
             ShiftManager.Instance.Reward(5);
             Debug.Log("Drink is correct!");
+            currentDrink.Clear();
+            return true;
         }
         else
         {
             ShiftManager.Instance.Penalize(10);
             Debug.Log("Drink is wrong!");
+            currentDrink.Clear();
+            return false;
         }
-
-        currentDrink.Clear();
     }
 
     private bool AreDrinksEqual(List<string> input, List<string> ingredientsForDrink)

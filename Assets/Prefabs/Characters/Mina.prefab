@@ -135,6 +135,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2c6064d638f92846b6a6bc0ee6b4896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 0}
   defaultFace: {fileID: 200049396652184584}
   angryFace: {fileID: 1857661143402227847}
   sadFace: {fileID: 8636252541848821960}
@@ -151,6 +152,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 836e1522ca7fec04bac4af2d7e609806, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultResponse: {fileID: 11400000, guid: db627fcebadd2d244944f3c51dbbe6c9, type: 2}
+  beforeDrinkDialogue: {fileID: 0}
+  correctDrinkDialogue: {fileID: 0}
+  wrongDrinkDialogue: {fileID: 0}
 --- !u!60 &279930719116509343
 PolygonCollider2D:
   m_ObjectHideFlags: 0

@@ -1,31 +1,31 @@
 fileFormatVersion: 2
-guid: 08815b2c7fcfb7e4dadc227a77cd4a4f
+guid: c739ce1f60e9c584b92e925eb5813059
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -649973835316676206
-    second: Ingridients_0
+      213: 4957677737036186315
+    second: IngridientsOutline_0
   - first:
-      213: -7295663300323442191
-    second: Ingridients_1
+      213: -8546080641712001909
+    second: IngridientsOutline_1
   - first:
-      213: -9147328796004968700
-    second: Ingridients_2
+      213: 4060039956239796702
+    second: IngridientsOutline_2
   - first:
-      213: -2515010068721193949
-    second: Ingridients_3
+      213: 6527495505288083646
+    second: IngridientsOutline_3
   - first:
-      213: 4816066597197734346
-    second: Ingridients_4
+      213: -5939983267122437720
+    second: IngridientsOutline_4
   - first:
-      213: -8681397145812367727
-    second: Ingridients_5
+      213: -1641136653707915820
+    second: IngridientsOutline_5
   - first:
-      213: -5923111913513713914
-    second: Ingridients_6
+      213: -8094540458894371611
+    second: IngridientsOutline_6
   - first:
-      213: -5670139905544194675
-    second: Ingridients_7
+      213: -2672588301776374977
+    second: IngridientsOutline_7
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -121,13 +121,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Ingridients_0
+      name: IngridientsOutline_0
       rect:
         serializedVersion: 2
-        x: 75
-        y: 574
-        width: 174
-        height: 316
+        x: 77
+        y: 575
+        width: 170
+        height: 314
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -136,20 +136,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 299b6a09d34daf6f0800000000000000
-      internalID: -649973835316676206
+      spriteID: bc287ea82a53dc440800000000000000
+      internalID: 4957677737036186315
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingridients_1
+      name: IngridientsOutline_1
       rect:
         serializedVersion: 2
-        x: 338
-        y: 574
-        width: 174
-        height: 316
+        x: 339
+        y: 575
+        width: 171
+        height: 314
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -158,20 +158,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 1f10e57e1e890ca90800000000000000
-      internalID: -7295663300323442191
+      spriteID: b8ce9e87fe8366980800000000000000
+      internalID: -8546080641712001909
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingridients_2
+      name: IngridientsOutline_2
       rect:
         serializedVersion: 2
-        x: 597
-        y: 567
-        width: 144
-        height: 260
+        x: 598
+        y: 570
+        width: 141
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -180,20 +180,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 4071c66bce82e0180800000000000000
-      internalID: -9147328796004968700
+      spriteID: ed9c09544d8285830800000000000000
+      internalID: 4060039956239796702
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingridients_3
+      name: IngridientsOutline_3
       rect:
         serializedVersion: 2
-        x: 832
-        y: 509
-        width: 154
-        height: 379
+        x: 834
+        y: 510
+        width: 151
+        height: 377
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -202,20 +202,86 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: 32ca757eaa3e81dd0800000000000000
-      internalID: -2515010068721193949
+      spriteID: eb8b7a1f392569a50800000000000000
+      internalID: 6527495505288083646
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Ingridients_4
+      name: IngridientsOutline_4
       rect:
         serializedVersion: 2
-        x: 33
-        y: 141
+        x: 34
+        y: 142
+        width: 137
+        height: 370
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8a1276f90b0f09da0800000000000000
+      internalID: -5939983267122437720
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IngridientsOutline_5
+      rect:
+        serializedVersion: 2
+        x: 235
+        y: 128
+        width: 277
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ddcdd798e28939e0800000000000000
+      internalID: -1641136653707915820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IngridientsOutline_6
+      rect:
+        serializedVersion: 2
+        x: 567
+        y: 128
+        width: 204
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5e4d29fd65a6aaf80800000000000000
+      internalID: -8094540458894371611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: IngridientsOutline_7
+      rect:
+        serializedVersion: 2
+        x: 845
+        y: 128
         width: 140
-        height: 372
+        height: 244
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -224,74 +290,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ac16894bd0b16d240800000000000000
-      internalID: 4816066597197734346
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ingridients_5
-      rect:
-        serializedVersion: 2
-        x: 234
-        y: 127
-        width: 279
-        height: 308
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 19683c9ba4b758780800000000000000
-      internalID: -8681397145812367727
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ingridients_6
-      rect:
-        serializedVersion: 2
-        x: 566
-        y: 127
-        width: 206
-        height: 205
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: 60f712eb811eccda0800000000000000
-      internalID: -5923111913513713914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Ingridients_7
-      rect:
-        serializedVersion: 2
-        x: 843
-        y: 127
-        width: 143
-        height: 246
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      customData: 
-      outline: []
-      physicsShape: []
-      tessellationDetail: -1
-      bones: []
-      spriteID: d85754f2ccd9f41b0800000000000000
-      internalID: -5670139905544194675
+      spriteID: f3331c9791f09ead0800000000000000
+      internalID: -2672588301776374977
       vertices: []
       indices: 
       edges: []
@@ -300,7 +300,7 @@ TextureImporter:
     customData: 
     physicsShape: []
     bones: []
-    spriteID: 
+    spriteID: 27d3457a3c77e5647959ce21ff868d55
     internalID: 0
     vertices: []
     indices: 
@@ -308,16 +308,18 @@ TextureImporter:
     weights: []
     secondaryTextures: []
     spriteCustomMetadata:
-      entries: []
+      entries:
+      - key: SpriteEditor.SliceSettings
+        value: '{"sliceOnImport":false,"gridCellCount":{"x":1.0,"y":1.0},"gridSpriteSize":{"x":64.0,"y":64.0},"gridSpriteOffset":{"x":0.0,"y":0.0},"gridSpritePadding":{"x":0.0,"y":0.0},"pivot":{"x":0.0,"y":0.0},"autoSlicingMethod":0,"spriteAlignment":0,"slicingType":0,"keepEmptyRects":false,"isAlternate":false}'
     nameFileIdTable:
-      Ingridients_0: -649973835316676206
-      Ingridients_1: -7295663300323442191
-      Ingridients_2: -9147328796004968700
-      Ingridients_3: -2515010068721193949
-      Ingridients_4: 4816066597197734346
-      Ingridients_5: -8681397145812367727
-      Ingridients_6: -5923111913513713914
-      Ingridients_7: -5670139905544194675
+      IngridientsOutline_0: 4957677737036186315
+      IngridientsOutline_1: -8546080641712001909
+      IngridientsOutline_2: 4060039956239796702
+      IngridientsOutline_3: 6527495505288083646
+      IngridientsOutline_4: -5939983267122437720
+      IngridientsOutline_5: -1641136653707915820
+      IngridientsOutline_6: -8094540458894371611
+      IngridientsOutline_7: -2672588301776374977
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
