@@ -5,11 +5,24 @@ using UnityEngine;
 public class DrinkManager : Singleton<DrinkManager>
 {
     private List<string> currentDrink = new List<string>();
+    [SerializeField] Ingredient[] allIngredients;
 
     public void AddIngredient(string name)
     {
         currentDrink.Add(name);
         Debug.Log("Added: " + name);
+    }
+    public void RemoveIngredient(string name)
+    {
+        foreach (var item in currentDrink)
+        {
+            if (item.Equals(name))
+            {
+                currentDrink.Remove(item);
+                break;
+            }
+        }
+        Debug.Log("Removed: " + name);
     }
     public bool DrinkDone()
     {
@@ -21,6 +34,9 @@ public class DrinkManager : Singleton<DrinkManager>
 
     public bool FinishDrink()
     {
+        foreach(var i in allIngredients)
+        i.ResetIngredient();
+
         var visit = ShiftManager.Instance?.GetCustomerVisit();
 
         if (visit == null)
