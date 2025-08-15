@@ -16,9 +16,19 @@ MonoBehaviour:
   customerVisits:
   - customer: {fileID: 11400000, guid: 513ef48cc548a014990deb9a66429b8c, type: 2}
     appearanceTimeInMinutes: 4
-    requestedDrink: {fileID: 11400000, guid: 8e63d8f0541ad364ea79f4d6623dcc0d, type: 2}
-    dialogue: {fileID: 11400000, guid: f7de2d1e85c2af145b09cc3b184d44d8, type: 2}
-  - customer: {fileID: 11400000, guid: 9524d3fb10b313743a4088f13ab8648b, type: 2}
+    requestedDrink: {fileID: 11400000, guid: 0a175aebd64f4644f9405ffed9cdf5db, type: 2}
+    startDialogue: {fileID: 11400000, guid: 49a85668c0cf7614dbd19721db3c3434, type: 2}
+    correctDialogue: {fileID: 11400000, guid: 2596134836cf38743aaafa74025b0555, type: 2}
+    wrongDialogue: {fileID: 11400000, guid: 46b3868266245b04db3c0be07bc9e87f, type: 2}
+  - customer: {fileID: 11400000, guid: a420cb0a9ec324c489b9ede48b6028f4, type: 2}
     appearanceTimeInMinutes: 10
-    requestedDrink: {fileID: 11400000, guid: edddad4ed3f1bf348a9c417a9cf8e47c, type: 2}
-    dialogue: {fileID: 11400000, guid: 9eba0b21333387e45975bf100b384a28, type: 2}
+    requestedDrink: {fileID: 11400000, guid: 8e63d8f0541ad364ea79f4d6623dcc0d, type: 2}
+    startDialogue: {fileID: 0}
+    correctDialogue: {fileID: 0}
+    wrongDialogue: {fileID: 0}
+  - customer: {fileID: 11400000, guid: 299dbebf0aee7af42952a82d43ff9b84, type: 2}
+    appearanceTimeInMinutes: 20
+    requestedDrink: {fileID: 11400000, guid: 8e63d8f0541ad364ea79f4d6623dcc0d, type: 2}
+    startDialogue: {fileID: 0}
+    correctDialogue: {fileID: 0}
+    wrongDialogue: {fileID: 0}

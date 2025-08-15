@@ -13,6 +13,7 @@ public class ShiftManager : Singleton<ShiftManager>
     public float shiftTimer; // In minutes
     private int currentCustomerIndex = 0;
     private bool isShiftActive;
+    private bool waitingForCustomerToLeave = false;
 
     private int approvalScore = 100;
 
@@ -32,19 +33,14 @@ public class ShiftManager : Singleton<ShiftManager>
 
         shiftTimer += Time.deltaTime * timeScale;
 
-        if (currentCustomerIndex < currentShift.customerVisits.Count)
+        if (!waitingForCustomerToLeave && currentCustomerIndex < currentShift.customerVisits.Count)
         {
             var next = currentShift.customerVisits[currentCustomerIndex];
 
             if (shiftTimer >= next.appearanceTimeInMinutes)
             {
-                currentCustomerIndex++;
-                currentCustomer = next;
-                Character character = CharacterDatabase.GetCharacterByID(currentCustomer.customer.CharacterID);
-                var spawnedCharacter = CharacterManager.Instance.SpawnCharacter(character);
-
-                spawnedCharacter.GetComponent<DialogueActivator>().
-                dialogue = currentCustomer.dialogue;
+                SpawnCustomer(next);
+                waitingForCustomerToLeave = true;
             }
         }
 
@@ -52,6 +48,26 @@ public class ShiftManager : Singleton<ShiftManager>
         {
             EndShift();
         }
+    }
+
+    private void SpawnCustomer(CustomerVisit visit)
+    {
+        currentCustomer = visit;
+        Character character = CharacterDatabase.GetCharacterByID(visit.customer.CharacterID);
+        var spawnedCharacter = CharacterManager.Instance.SpawnCharacter(character);
+
+        var dialogueActiv = spawnedCharacter.GetComponent<DialogueActivator>();
+        dialogueActiv.beforeDrinkDialogue = visit.startDialogue;
+        dialogueActiv.correctDrinkDialogue = visit.correctDialogue;
+        dialogueActiv.wrongDrinkDialogue = visit.wrongDialogue;
+
+        Debug.Log($"Customer {visit.customer.CharacterID} arrived");
+    }
+
+    public void OnCustomerServed()
+    {
+        currentCustomerIndex++;
+        waitingForCustomerToLeave = false;
     }
 
     public void StartShift(NightShift shift)

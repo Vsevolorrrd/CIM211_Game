@@ -11,7 +11,9 @@ namespace Subtegral.DialogueSystem.Runtime
         [SerializeField] DialogueContainer dialogueContainer;
 
         private DialogueNodeData savedDialogueNodeData;
+        private float inputBlockTimer = 0f;
         private bool awatingImput = false;
+        private bool dialogueIsGoing = false;
 
         // Dialogue managers
         private D_conditionManager conditionManager;
@@ -33,6 +35,9 @@ namespace Subtegral.DialogueSystem.Runtime
             UIManager.OpenDialogueUI();
             var narrativeData = dialogueContainer.NodeLinks.First(); //Entrypoint node
             ProceedToNarrative(narrativeData.TargetNodeGUID);
+            dialogueIsGoing = true;
+            // so first click doesn't skip
+            inputBlockTimer = 0.2f;
         }
 
         public void ProceedToNarrative(string narrativeDataGUID)
@@ -116,7 +121,7 @@ namespace Subtegral.DialogueSystem.Runtime
             x.PortName == (result ? "True" : "False"));
 
             if (nextLink != null)
-                ProceedToNarrative(nextLink.TargetNodeGUID);
+            ProceedToNarrative(nextLink.TargetNodeGUID);
         }
         private void BoolConditionNode(DialogueNodeData nodeData)
         {
@@ -127,7 +132,7 @@ namespace Subtegral.DialogueSystem.Runtime
             x.PortName == (result ? "True" : "False"));
 
             if (nextLink != null)
-                ProceedToNarrative(nextLink.TargetNodeGUID);
+            ProceedToNarrative(nextLink.TargetNodeGUID);
         }
         private void RandomConditionNode(DialogueNodeData nodeData)
         {
@@ -144,6 +149,7 @@ namespace Subtegral.DialogueSystem.Runtime
         private void EndNode(DialogueNodeData nodeData)
         {
             Debug.Log("Dialogue has ended.");
+            dialogueIsGoing = false;
 
             UIManager.CloseDialogueUI();
             //if (nodeData.EndAction == EndAction.LoadScene)
@@ -166,7 +172,13 @@ namespace Subtegral.DialogueSystem.Runtime
 
         private void Update()
         {
-            if (!awatingImput || savedDialogueNodeData == null) return;
+            if (inputBlockTimer > 0f)
+            {
+                inputBlockTimer -= Time.deltaTime;
+                return;
+            }
+
+            if (!awatingImput || !dialogueIsGoing || savedDialogueNodeData == null) return;
 
             if (Input.GetKeyDown(KeyCode.Space) || Input.GetMouseButtonDown(0))
             {

@@ -8,7 +8,7 @@ public class NightShift : ScriptableObject
 {
     public float shiftDurationInMinutes;
 
-    [Tooltip("List of all events (customers) during the night")]
+    [Tooltip("List of all customers during the night")]
     public List<CustomerVisit> customerVisits;
 }
 
@@ -23,6 +23,8 @@ public class CustomerVisit
     [Tooltip("What drink they want tonight.")]
     public Drink requestedDrink;
 
-    [Tooltip("All dialogue events for the night.")]
-    public DialogueContainer dialogue;
+    [Tooltip("All dialogues for the night.")]
+    public DialogueContainer startDialogue;
+    public DialogueContainer correctDialogue;
+    public DialogueContainer wrongDialogue;
 }
