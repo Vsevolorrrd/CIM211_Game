@@ -81,8 +81,7 @@ namespace Subtegral.DialogueSystem.Runtime
         {
             UIManager.CreateText(nodeData);
             Character character = CharacterDatabase.GetCharacterByID(nodeData.Actor);
-            CharacterManager.Instance.SetCharacterVisuals
-            (character, nodeData.CharacterEmotion.ToString().ToLowerInvariant());
+            CharacterManager.Instance.SetCharacterVisuals(character, nodeData.CharacterEmotion.ToString().ToLowerInvariant());
 
             savedDialogueNodeData = nodeData;
             awatingImput = true;

@@ -18,11 +18,7 @@ MonoBehaviour:
     appearanceTimeInMinutes: 4
     requestedDrink: {fileID: 11400000, guid: 8e63d8f0541ad364ea79f4d6623dcc0d, type: 2}
     dialogue: {fileID: 11400000, guid: f7de2d1e85c2af145b09cc3b184d44d8, type: 2}
-  - customer: {fileID: 11400000, guid: 513ef48cc548a014990deb9a66429b8c, type: 2}
-    appearanceTimeInMinutes: 4
-    requestedDrink: {fileID: 11400000, guid: 8e63d8f0541ad364ea79f4d6623dcc0d, type: 2}
-    dialogue: {fileID: 11400000, guid: f7de2d1e85c2af145b09cc3b184d44d8, type: 2}
-  - customer: {fileID: 11400000, guid: 513ef48cc548a014990deb9a66429b8c, type: 2}
-    appearanceTimeInMinutes: 4
-    requestedDrink: {fileID: 11400000, guid: 8e63d8f0541ad364ea79f4d6623dcc0d, type: 2}
-    dialogue: {fileID: 11400000, guid: f7de2d1e85c2af145b09cc3b184d44d8, type: 2}
+  - customer: {fileID: 11400000, guid: 9524d3fb10b313743a4088f13ab8648b, type: 2}
+    appearanceTimeInMinutes: 10
+    requestedDrink: {fileID: 11400000, guid: edddad4ed3f1bf348a9c417a9cf8e47c, type: 2}
+    dialogue: {fileID: 11400000, guid: 9eba0b21333387e45975bf100b384a28, type: 2}

@@ -1,3 +1,5 @@
+using System;
+using Characters;
 using UnityEngine;
 
 public class CharacterHolder : MonoBehaviour
@@ -7,6 +9,12 @@ public class CharacterHolder : MonoBehaviour
     [SerializeField] GameObject angryFace;
     [SerializeField] GameObject sadFace;
     [SerializeField] GameObject happyFace;
+    public CharacterFader characterFader;
+
+    private void OnEnable()
+    {
+        characterFader = GetComponentInChildren<CharacterFader>();
+    }
 
     public void SwitchEmotions(string emotion)
     {
@@ -34,7 +42,7 @@ public class CharacterHolder : MonoBehaviour
                 break;
         }
     }
-    private void SetAllFacesOff()
+    public void SetAllFacesOff()
     {
         defaultFace.SetActive(false);
         angryFace.SetActive(false);

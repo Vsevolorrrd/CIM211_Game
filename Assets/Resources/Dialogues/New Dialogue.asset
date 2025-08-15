@@ -1,0 +1,55 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: New Dialogue
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: a16396c3-ee5a-4070-847e-a142f9fcc278
+    TargetNodeGUID: b5db935b-3d26-4ac6-8e05-b5557bf330a4
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: b5db935b-3d26-4ac6-8e05-b5557bf330a4
+    TargetNodeGUID: 63ae491e-a9a0-4b82-bcc5-55912c7b711c
+    DisplayText: Next
+  DialogueNodeData:
+  - NodeGUID: b5db935b-3d26-4ac6-8e05-b5557bf330a4
+    DialogueText: Dialogue Node
+    Position: {x: 213, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: narrator_id
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 63ae491e-a9a0-4b82-bcc5-55912c7b711c
+    DialogueText: End Node
+    Position: {x: 477, y: 200}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 1
+  CommentBlockData: []

@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -11,7 +12,6 @@ namespace Characters
 
         [SerializeField] Transform spawn;
         private GameObject currentCharacter;
-
 
         void Awake()
         {
@@ -47,8 +47,10 @@ namespace Characters
         {
             if (currentCharacter.GetComponent<CharacterHolder>().character != character)
             {
-                Destroy(currentCharacter);
-
+                CharacterHolder characterHolder = currentCharacter.GetComponent<CharacterHolder>();
+                characterHolder.SetAllFacesOff();
+                characterHolder.characterFader.FadeOut();
+                
                 var spawnedChar = Instantiate(character.characterPrefab, spawn.position, Quaternion.identity);
                 var charHolder = spawnedChar.GetComponent<CharacterHolder>();
                 charHolder.SwitchEmotions(emotion);
@@ -71,6 +73,7 @@ namespace Characters
             charHolder.SwitchEmotions(emotion);
             charHolder.character = character;
             currentCharacter = spawnedChar;
+            charHolder.characterFader.FadeIn();
 
             return spawnedChar;
         }

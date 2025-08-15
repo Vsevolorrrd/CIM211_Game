@@ -135,10 +135,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b2c6064d638f92846b6a6bc0ee6b4896, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  character: {fileID: 0}
   defaultFace: {fileID: 200049396652184584}
   angryFace: {fileID: 1857661143402227847}
   sadFace: {fileID: 8636252541848821960}
   happyFace: {fileID: 4767462626167762191}
+  characterFader: {fileID: 0}
 --- !u!114 &8185257993637935374
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -151,6 +153,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 836e1522ca7fec04bac4af2d7e609806, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultResponse: {fileID: 0}
+  dialogue: {fileID: 0}
 --- !u!60 &5161328223842438159
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -308,6 +312,7 @@ GameObject:
   m_Component:
   - component: {fileID: 2603792064493686423}
   - component: {fileID: 4528450804125924043}
+  - component: {fileID: 3270984808524138766}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -385,6 +390,21 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!114 &3270984808524138766
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3393482012005901049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcafbe4665c44f14b64ac9c2cc913db4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 4528450804125924043}
+  isFading: 0
+  targetAlpha: 0
 --- !u!1 &4767462626167762191
 GameObject:
   m_ObjectHideFlags: 0
