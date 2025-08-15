@@ -153,8 +153,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 836e1522ca7fec04bac4af2d7e609806, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  defaultResponse: {fileID: 0}
-  dialogue: {fileID: 0}
+  defaultResponse: {fileID: 11400000, guid: 49a85668c0cf7614dbd19721db3c3434, type: 2}
+  beforeDrinkDialogue: {fileID: 0}
+  correctDrinkDialogue: {fileID: 0}
+  wrongDrinkDialogue: {fileID: 0}
 --- !u!60 &7943184358259822123
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -405,6 +407,7 @@ MonoBehaviour:
   character: {fileID: 4528450804125924043}
   isFading: 0
   targetAlpha: 0
+  fadeDuration: 1
 --- !u!1 &4767462626167762191
 GameObject:
   m_ObjectHideFlags: 0

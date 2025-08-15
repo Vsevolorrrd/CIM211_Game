@@ -23,12 +23,12 @@ MonoBehaviour:
   - customer: {fileID: 11400000, guid: a420cb0a9ec324c489b9ede48b6028f4, type: 2}
     appearanceTimeInMinutes: 10
     requestedDrink: {fileID: 11400000, guid: 8e63d8f0541ad364ea79f4d6623dcc0d, type: 2}
-    startDialogue: {fileID: 0}
-    correctDialogue: {fileID: 0}
-    wrongDialogue: {fileID: 0}
+    startDialogue: {fileID: 11400000, guid: 49a85668c0cf7614dbd19721db3c3434, type: 2}
+    correctDialogue: {fileID: 11400000, guid: 2596134836cf38743aaafa74025b0555, type: 2}
+    wrongDialogue: {fileID: 11400000, guid: 46b3868266245b04db3c0be07bc9e87f, type: 2}
   - customer: {fileID: 11400000, guid: 299dbebf0aee7af42952a82d43ff9b84, type: 2}
     appearanceTimeInMinutes: 20
     requestedDrink: {fileID: 11400000, guid: 8e63d8f0541ad364ea79f4d6623dcc0d, type: 2}
-    startDialogue: {fileID: 0}
-    correctDialogue: {fileID: 0}
-    wrongDialogue: {fileID: 0}
+    startDialogue: {fileID: 11400000, guid: 49a85668c0cf7614dbd19721db3c3434, type: 2}
+    correctDialogue: {fileID: 11400000, guid: 2596134836cf38743aaafa74025b0555, type: 2}
+    wrongDialogue: {fileID: 11400000, guid: 46b3868266245b04db3c0be07bc9e87f, type: 2}

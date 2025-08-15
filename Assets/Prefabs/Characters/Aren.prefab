@@ -154,7 +154,9 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultResponse: {fileID: 11400000, guid: 9eba0b21333387e45975bf100b384a28, type: 2}
-  dialogue: {fileID: 0}
+  beforeDrinkDialogue: {fileID: 0}
+  correctDrinkDialogue: {fileID: 0}
+  wrongDrinkDialogue: {fileID: 0}
 --- !u!60 &6669286115612046485
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -313,6 +315,7 @@ GameObject:
   - component: {fileID: 2603792064493686423}
   - component: {fileID: 4528450804125924043}
   - component: {fileID: 4329663591444170476}
+  - component: {fileID: 9042127520053491684}
   m_Layer: 0
   m_Name: Body
   m_TagString: Untagged
@@ -403,6 +406,22 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   character: {fileID: 4528450804125924043}
+  isFading: 0
+  targetAlpha: 0
+  fadeDuration: 1
+--- !u!114 &9042127520053491684
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3393482012005901049}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bcafbe4665c44f14b64ac9c2cc913db4, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  character: {fileID: 0}
   isFading: 0
   targetAlpha: 0
   fadeDuration: 1
