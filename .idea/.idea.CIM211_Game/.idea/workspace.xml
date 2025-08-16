@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="5de69b51-cb5d-4d01-a1bc-f50a8c4d33a6" name="Changes" comment="" />
+    <list default="true" id="5de69b51-cb5d-4d01-a1bc-f50a8c4d33a6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Quiter.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Quiter.cs.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -110,7 +114,7 @@
       <option name="presentableId" value="Default" />
       <updated>1755267844896</updated>
       <workItem from="1755267846802" duration="4173000" />
-      <workItem from="1755272151252" duration="6337000" />
+      <workItem from="1755272151252" duration="5564000" />
     </task>
     <servers />
   </component>

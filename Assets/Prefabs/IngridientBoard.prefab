@@ -2356,3 +2356,12 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eb366e94bf2090f4e8eed7f8f0af6a36, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  allIngredients:
+  - {fileID: 13239173844508686}
+  - {fileID: 7874869076202904621}
+  - {fileID: 2277714130543516012}
+  - {fileID: 4603740468882235675}
+  - {fileID: 3156085738690436053}
+  - {fileID: 6999794591515824825}
+  - {fileID: 3183160426585883601}
+  - {fileID: 5897108339478065274}
