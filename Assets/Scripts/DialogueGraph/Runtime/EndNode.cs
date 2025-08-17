@@ -4,6 +4,7 @@ namespace Subtegral.DialogueSystem.DataContainers
     {
         LoadScene,
         CloseDialogue,
-        StartDialogue
+        StartDialogue,
+        CustomerLeaves
     }
 }

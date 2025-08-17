@@ -12,6 +12,8 @@ public class DialogueActivator : MonoBehaviour
 
     private void OnMouseDown()
     {
+        if (D_Manager.Instance.IsSpeaking()) return;
+
         if (activated)
         {
             if (!DrinkManager.Instance.DrinkDone())

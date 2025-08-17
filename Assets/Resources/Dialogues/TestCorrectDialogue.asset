@@ -51,5 +51,5 @@ MonoBehaviour:
     EventType: 0
     EventName: 
     EventValue: 0
-    EndAction: 1
+    EndAction: 3
   CommentBlockData: []

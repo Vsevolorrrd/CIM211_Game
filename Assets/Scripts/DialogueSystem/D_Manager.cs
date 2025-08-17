@@ -14,6 +14,7 @@ namespace Subtegral.DialogueSystem.Runtime
         private float inputBlockTimer = 0f;
         private bool awatingImput = false;
         private bool dialogueIsGoing = false;
+        public bool IsSpeaking() { return dialogueIsGoing; }
 
         // Dialogue managers
         private D_conditionManager conditionManager;
@@ -143,31 +144,42 @@ namespace Subtegral.DialogueSystem.Runtime
             x.PortName == (result ? "True" : "False"));
 
             if (nextLink != null)
-                ProceedToNarrative(nextLink.TargetNodeGUID);
+            ProceedToNarrative(nextLink.TargetNodeGUID);
         }
 
         private void EndNode(DialogueNodeData nodeData)
         {
             Debug.Log("Dialogue has ended.");
             dialogueIsGoing = false;
-
-            UIManager.CloseDialogueUI();
-            //if (nodeData.EndAction == EndAction.LoadScene)
-            //SceneLoader.Instance.LoadScene(nodeData.DialogueText);
-            if (nodeData.EndAction == EndAction.StartDialogue)
+            switch (nodeData.EndAction)
             {
-                var dialogueFiles = Resources.LoadAll<DialogueContainer>("Dialogues");
-                var dialogueNames = dialogueFiles.Select(file => file.name).ToList();
+                case EndAction.StartDialogue:
 
-                foreach (var dialogueName in dialogueNames)
-                {
-                    if (dialogueName == nodeData.DialogueText)
+                    var dialogueFiles = Resources.LoadAll<DialogueContainer>("Dialogues");
+                    var dialogueNames = dialogueFiles.Select(file => file.name).ToList();
+
+                    foreach (var dialogueName in dialogueNames)
                     {
-                        StartDialogue(Resources.Load<DialogueContainer>($"Dialogues/{dialogueName}"));
-                        break;
+                        if (dialogueName == nodeData.DialogueText)
+                        {
+                            StartDialogue(Resources.Load<DialogueContainer>($"Dialogues/{dialogueName}"));
+                            break;
+                        }
                     }
-                }
+                    break;
+
+                case EndAction.LoadScene:
+                    //SceneLoader.Instance.LoadScene(nodeData.DialogueText);
+                    break;
+
+                case EndAction.CustomerLeaves:
+                    ShiftManager.instance.OnCustomerServed();
+                    break;
+
+                default:
+                    break;
             }
+            UIManager.CloseDialogueUI();
         }
 
         private void Update()

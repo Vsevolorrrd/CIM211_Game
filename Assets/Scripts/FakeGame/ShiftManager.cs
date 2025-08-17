@@ -88,14 +88,12 @@ public class ShiftManager : Singleton<ShiftManager>
     public void Penalize(int amount)
     {
         approvalScore = approvalScore - amount;
-        OnCustomerServed();
         Debug.Log($"Penalty: -{amount}");
     }
 
     public void Reward(int amount)
     {
         approvalScore = approvalScore + amount;
-        OnCustomerServed();
         Debug.Log($"Reward: +{amount}");
     }
 }
