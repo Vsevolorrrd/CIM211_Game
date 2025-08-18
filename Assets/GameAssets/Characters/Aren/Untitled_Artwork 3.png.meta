@@ -1,10 +1,10 @@
 fileFormatVersion: 2
-guid: 1c213955f76b99e499e33c0b2b7dd9e8
+guid: 4675c460db2460e41bc06b1380254416
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 4613258379607941631
-    second: Yaro (P1)_0
+      213: -6950486346419376927
+    second: Untitled_Artwork 3_0
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -100,13 +100,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Yaro (P1)_0
+      name: Untitled_Artwork 3_0
       rect:
         serializedVersion: 2
-        x: 417
+        x: 390
         y: 0
-        width: 1164
-        height: 2014
+        width: 1192
+        height: 2012
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -115,8 +115,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: -1
       bones: []
-      spriteID: ff120addd06950040800000000000000
-      internalID: 4613258379607941631
+      spriteID: 1ec68714e79ea8f90800000000000000
+      internalID: -6950486346419376927
       vertices: []
       indices: 
       edges: []
@@ -135,7 +135,7 @@ TextureImporter:
     spriteCustomMetadata:
       entries: []
     nameFileIdTable:
-      Yaro (P1)_0: 4613258379607941631
+      Untitled_Artwork 3_0: -6950486346419376927
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 

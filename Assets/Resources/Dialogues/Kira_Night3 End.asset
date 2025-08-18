@@ -1,0 +1,160 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Kira_Night3 End
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: f121d80f-1f12-432b-8b8f-40d50a18c20f
+    TargetNodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
+    TargetNodeGUID: 5edf2b81-553a-4e9a-a573-fa53b786d163
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: 5edf2b81-553a-4e9a-a573-fa53b786d163
+    TargetNodeGUID: b8ae9ce3-e06c-4872-949e-8ea3fa69555a
+    DisplayText: "If you care, that\u2019s enough to start with."
+  - PortName: Option 2
+    BaseNodeGUID: 5edf2b81-553a-4e9a-a573-fa53b786d163
+    TargetNodeGUID: 7365f6a1-b401-4a28-a4f2-1e9c54b46efb
+    DisplayText: Yeah, but an audience always shows up eventually.
+  - PortName: Option 3
+    BaseNodeGUID: 5edf2b81-553a-4e9a-a573-fa53b786d163
+    TargetNodeGUID: a38757ae-3096-4933-a7e3-d960c39deeb2
+    DisplayText: "Not really, but I\u2019ll take your word for it."
+  - PortName: Next
+    BaseNodeGUID: b8ae9ce3-e06c-4872-949e-8ea3fa69555a
+    TargetNodeGUID: 29493b47-03a6-41a8-8377-290defe9c121
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 7365f6a1-b401-4a28-a4f2-1e9c54b46efb
+    TargetNodeGUID: 29493b47-03a6-41a8-8377-290defe9c121
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: a38757ae-3096-4933-a7e3-d960c39deeb2
+    TargetNodeGUID: 29493b47-03a6-41a8-8377-290defe9c121
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 29493b47-03a6-41a8-8377-290defe9c121
+    TargetNodeGUID: 750da4bc-65f6-4110-8321-b25d12732a8b
+    DisplayText: Next
+  DialogueNodeData:
+  - NodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
+    DialogueText: "You ever get that feeling where you\u2019re pouring everything
+      into something, but you\u2019re not sure anyone even cares?"
+    Position: {x: 185.59999, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Kira
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 5edf2b81-553a-4e9a-a573-fa53b786d163
+    DialogueText: Choice Node
+    Position: {x: 548, y: 200}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: b8ae9ce3-e06c-4872-949e-8ea3fa69555a
+    DialogueText: "That\u2019s\u2026 actually a good way to put it. Thanks."
+    Position: {x: 1044.7999, y: 123.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Kira
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 7365f6a1-b401-4a28-a4f2-1e9c54b46efb
+    DialogueText: "I hope you\u2019re right. I\u2019m betting everything on it."
+    Position: {x: 1044.7999, y: 260.8}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Kira
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: a38757ae-3096-4933-a7e3-d960c39deeb2
+    DialogueText: "Heh, fair enough. I\u2019ll be the crazy one chasing it, then."
+    Position: {x: 1044.7999, y: 398.4}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Kira
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 29493b47-03a6-41a8-8377-290defe9c121
+    DialogueText: Kira relaxes for a while, tapping his fingers on the counter like
+      a quiet beat, before heading out.
+    Position: {x: 1460, y: 227.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: narrator_id
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 750da4bc-65f6-4110-8321-b25d12732a8b
+    DialogueText: End Node
+    Position: {x: 1774.3999, y: 227.2}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 3
+  CommentBlockData: []

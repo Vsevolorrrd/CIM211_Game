@@ -1,0 +1,165 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Kira_Night3 Start
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: f121d80f-1f12-432b-8b8f-40d50a18c20f
+    TargetNodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
+    TargetNodeGUID: 1b67a2d0-ed46-45aa-9a06-f77c9cbf2c6f
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: 1b67a2d0-ed46-45aa-9a06-f77c9cbf2c6f
+    TargetNodeGUID: f5d6f36d-c287-448c-b43f-1cbe59cf5e0b
+    DisplayText: Sure thing, Screwdriver coming up.
+  - PortName: Option 2
+    BaseNodeGUID: 1b67a2d0-ed46-45aa-9a06-f77c9cbf2c6f
+    TargetNodeGUID: 1b481568-c9e1-44c5-bc41-552ae47204c9
+    DisplayText: Rough night of practice?
+  - PortName: Option 3
+    BaseNodeGUID: 1b67a2d0-ed46-45aa-9a06-f77c9cbf2c6f
+    TargetNodeGUID: 7eca75ec-c5a7-4d84-a410-8a3eebd6dee0
+    DisplayText: You play guitar?
+  - PortName: Option 4
+    BaseNodeGUID: 1b67a2d0-ed46-45aa-9a06-f77c9cbf2c6f
+    TargetNodeGUID: 84c0ef1f-8d35-41a1-a178-7f9d37140fba
+    DisplayText: Are you sure you're old enough?
+  - PortName: Next
+    BaseNodeGUID: f5d6f36d-c287-448c-b43f-1cbe59cf5e0b
+    TargetNodeGUID: 14bd3766-dfb6-489b-8357-772d5b0140e1
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 1b481568-c9e1-44c5-bc41-552ae47204c9
+    TargetNodeGUID: 14bd3766-dfb6-489b-8357-772d5b0140e1
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 7eca75ec-c5a7-4d84-a410-8a3eebd6dee0
+    TargetNodeGUID: 14bd3766-dfb6-489b-8357-772d5b0140e1
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 84c0ef1f-8d35-41a1-a178-7f9d37140fba
+    TargetNodeGUID: 14bd3766-dfb6-489b-8357-772d5b0140e1
+    DisplayText: Next
+  DialogueNodeData:
+  - NodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
+    DialogueText: "Whoa\u2026 this place is open this late? Sweet! Mind if I crash
+      here for a bit? I could really use\u2026 hmm\u2026 how about a Screwdriver?"
+    Position: {x: 185.6, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Kira
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 1b67a2d0-ed46-45aa-9a06-f77c9cbf2c6f
+    DialogueText: Choice Node
+    Position: {x: 512.8, y: 200}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: f5d6f36d-c287-448c-b43f-1cbe59cf5e0b
+    DialogueText: "Thanks, I\u2019m kinda running on fumes right now."
+    Position: {x: 896.8, y: 131.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Kira
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 1b481568-c9e1-44c5-bc41-552ae47204c9
+    DialogueText: Yeah, been rehearsing for hours. My fingers might revolt at any
+      second.
+    Position: {x: 896.8, y: 268.8}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Kira
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 7eca75ec-c5a7-4d84-a410-8a3eebd6dee0
+    DialogueText: "Yep, trying to make something of it... still not sure if it\u2019s
+      passion or just stubbornness."
+    Position: {x: 896.8, y: 420}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Kira
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 84c0ef1f-8d35-41a1-a178-7f9d37140fba
+    DialogueText: 21, just hit it. So, no worries.
+    Position: {x: 896.8, y: 571.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Kira
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 14bd3766-dfb6-489b-8357-772d5b0140e1
+    DialogueText: End Node
+    Position: {x: 1275.2, y: 300}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 1
+  CommentBlockData: []

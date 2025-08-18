@@ -1,0 +1,181 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Nora_Night2 End
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: f0af0f1c-428f-4fd5-b2d1-44cce03e9aa4
+    TargetNodeGUID: 7f23d8a5-4d53-4f86-b4b2-6ed1ff8d1741
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 7f23d8a5-4d53-4f86-b4b2-6ed1ff8d1741
+    TargetNodeGUID: aeb12e23-231e-4e9c-98f9-a181b05cc726
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: aeb12e23-231e-4e9c-98f9-a181b05cc726
+    TargetNodeGUID: 1d06feeb-f6ec-4bf0-9f0f-e437ce224094
+    DisplayText: "That\u2019s kind of what it feels like, yeah."
+  - PortName: Option 2
+    BaseNodeGUID: aeb12e23-231e-4e9c-98f9-a181b05cc726
+    TargetNodeGUID: ec5ebd38-ec92-4ddd-976c-35c9ae99b609
+    DisplayText: "So basically, I\u2019m everyone\u2019s therapist now?"
+  - PortName: Option 3
+    BaseNodeGUID: aeb12e23-231e-4e9c-98f9-a181b05cc726
+    TargetNodeGUID: 37064995-9934-44a8-a230-ec59002a12bf
+    DisplayText: I thought they came for the booze and sugar.
+  - PortName: Next
+    BaseNodeGUID: 1d06feeb-f6ec-4bf0-9f0f-e437ce224094
+    TargetNodeGUID: fd29f349-ac56-4a35-8e1c-bab1d64e30ee
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: ec5ebd38-ec92-4ddd-976c-35c9ae99b609
+    TargetNodeGUID: fd29f349-ac56-4a35-8e1c-bab1d64e30ee
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 37064995-9934-44a8-a230-ec59002a12bf
+    TargetNodeGUID: fd29f349-ac56-4a35-8e1c-bab1d64e30ee
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: fd29f349-ac56-4a35-8e1c-bab1d64e30ee
+    TargetNodeGUID: 5e169cf4-a5da-4abf-9c85-a589321fb497
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 5e169cf4-a5da-4abf-9c85-a589321fb497
+    TargetNodeGUID: bb6958fd-b4d3-4a2c-beea-0c1a7fdae68c
+    DisplayText: Next
+  DialogueNodeData:
+  - NodeGUID: 7f23d8a5-4d53-4f86-b4b2-6ed1ff8d1741
+    DialogueText: You know, I think people come here less for the drinks and more
+      because someone actually talks to them. Beats staring at the ceiling at home.
+    Position: {x: 214.4, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Nora
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: aeb12e23-231e-4e9c-98f9-a181b05cc726
+    DialogueText: Choice Node
+    Position: {x: 527.2, y: 200}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 1d06feeb-f6ec-4bf0-9f0f-e437ce224094
+    DialogueText: "See? You get it. Coffee\u2019s just an excuse."
+    Position: {x: 948, y: 104.8}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Nora
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: ec5ebd38-ec92-4ddd-976c-35c9ae99b609
+    DialogueText: Yep. Better start charging hourly rates.
+    Position: {x: 948, y: 242.4}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Nora
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 37064995-9934-44a8-a230-ec59002a12bf
+    DialogueText: "Sure, that too. But trust me \u2014 it\u2019s the conversation
+      that keeps them coming back."
+    Position: {x: 948, y: 380}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Nora
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: fd29f349-ac56-4a35-8e1c-bab1d64e30ee
+    DialogueText: Nora checks her phone, groans softly at a reminder, then gathers
+      her bag.
+    Position: {x: 1312, y: 268.8}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: narrator_id
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 5e169cf4-a5da-4abf-9c85-a589321fb497
+    DialogueText: Alright, time to drag myself home. Thanks for the Latte. Try not
+      to fall asleep on the counter before I see you again.
+    Position: {x: 1647.2, y: 268.8}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Nora
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: bb6958fd-b4d3-4a2c-beea-0c1a7fdae68c
+    DialogueText: End Node
+    Position: {x: 1963.2, y: 268.8}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 3
+  CommentBlockData: []

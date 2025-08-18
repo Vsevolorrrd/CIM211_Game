@@ -140,7 +140,7 @@ MonoBehaviour:
   angryFace: {fileID: 1857661143402227847}
   sadFace: {fileID: 8636252541848821960}
   happyFace: {fileID: 4767462626167762191}
-  characterFader: {fileID: 0}
+  characterFader: {fileID: 5795383284487467157}
 --- !u!114 &4729551804296318316
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -154,7 +154,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   defaultResponse: {fileID: 0}
-  dialogue: {fileID: 0}
+  beforeDrinkDialogue: {fileID: 0}
+  endDialogue: {fileID: 0}
+  correct: 
+  wrong: 
 --- !u!60 &1958351573416170967
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -405,6 +408,7 @@ MonoBehaviour:
   character: {fileID: 0}
   isFading: 0
   targetAlpha: 0
+  fadeDuration: 1
 --- !u!1 &4767462626167762191
 GameObject:
   m_ObjectHideFlags: 0

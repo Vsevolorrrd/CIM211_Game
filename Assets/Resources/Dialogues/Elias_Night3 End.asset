@@ -1,0 +1,36 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Elias_Night3 End
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: f121d80f-1f12-432b-8b8f-40d50a18c20f
+    TargetNodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
+    DisplayText: Next
+  DialogueNodeData:
+  - NodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
+    DialogueText: Basic Node
+    Position: {x: 185.59999, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Kira
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  CommentBlockData: []

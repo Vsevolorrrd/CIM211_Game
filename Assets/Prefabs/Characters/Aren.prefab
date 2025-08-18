@@ -140,7 +140,7 @@ MonoBehaviour:
   angryFace: {fileID: 1857661143402227847}
   sadFace: {fileID: 8636252541848821960}
   happyFace: {fileID: 4767462626167762191}
-  characterFader: {fileID: 0}
+  characterFader: {fileID: 4329663591444170476}
 --- !u!114 &2511635969455329570
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -155,8 +155,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   defaultResponse: {fileID: 11400000, guid: 9eba0b21333387e45975bf100b384a28, type: 2}
   beforeDrinkDialogue: {fileID: 0}
-  correctDrinkDialogue: {fileID: 0}
-  wrongDrinkDialogue: {fileID: 0}
+  endDialogue: {fileID: 0}
+  correct: 
+  wrong: 
 --- !u!60 &6669286115612046485
 PolygonCollider2D:
   m_ObjectHideFlags: 0
@@ -382,7 +383,7 @@ SpriteRenderer:
   m_SortingLayerID: 1888922663
   m_SortingLayer: 2
   m_SortingOrder: 0
-  m_Sprite: {fileID: 21300000, guid: 1c213955f76b99e499e33c0b2b7dd9e8, type: 3}
+  m_Sprite: {fileID: 21300000, guid: 4675c460db2460e41bc06b1380254416, type: 3}
   m_Color: {r: 1, g: 1, b: 1, a: 1}
   m_FlipX: 0
   m_FlipY: 0
@@ -537,7 +538,7 @@ Transform:
   m_GameObject: {fileID: 5398646837884924750}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: -0.02, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:

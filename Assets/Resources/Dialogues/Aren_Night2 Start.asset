@@ -1,0 +1,139 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Aren_Night2 Start
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: 8accee8d-20ca-4879-aeca-70c30c1aefb5
+    TargetNodeGUID: 593a086a-88f5-48f5-b5b9-0de95a5229b0
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 593a086a-88f5-48f5-b5b9-0de95a5229b0
+    TargetNodeGUID: bb3f2380-08e2-4ba0-95d7-4961dfb5688b
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: bb3f2380-08e2-4ba0-95d7-4961dfb5688b
+    TargetNodeGUID: f362eb20-476d-44e5-b35f-ec12e4dee99c
+    DisplayText: Sure thing. One Cola.
+  - PortName: Option 2
+    BaseNodeGUID: bb3f2380-08e2-4ba0-95d7-4961dfb5688b
+    TargetNodeGUID: f5510601-5854-4f89-a222-b8738329f90e
+    DisplayText: "You\u2019re out late."
+  - PortName: Option 3
+    BaseNodeGUID: bb3f2380-08e2-4ba0-95d7-4961dfb5688b
+    TargetNodeGUID: 94e9b937-8c92-4fb1-b6d1-fa151d3385f8
+    DisplayText: Got it. Anything else?
+  - PortName: Next
+    BaseNodeGUID: f362eb20-476d-44e5-b35f-ec12e4dee99c
+    TargetNodeGUID: b613bf81-fdec-4d80-b3b2-d9a490527f89
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: f5510601-5854-4f89-a222-b8738329f90e
+    TargetNodeGUID: b613bf81-fdec-4d80-b3b2-d9a490527f89
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 94e9b937-8c92-4fb1-b6d1-fa151d3385f8
+    TargetNodeGUID: b613bf81-fdec-4d80-b3b2-d9a490527f89
+    DisplayText: Next
+  DialogueNodeData:
+  - NodeGUID: 593a086a-88f5-48f5-b5b9-0de95a5229b0
+    DialogueText: "\u2026Um\u2026 hi. Can I just get a Cola?"
+    Position: {x: 220, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: bb3f2380-08e2-4ba0-95d7-4961dfb5688b
+    DialogueText: Choice Node
+    Position: {x: 460, y: 200}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: f362eb20-476d-44e5-b35f-ec12e4dee99c
+    DialogueText: "\u2026Thanks."
+    Position: {x: 769.6, y: 111.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: f5510601-5854-4f89-a222-b8738329f90e
+    DialogueText: "Yeah\u2026 I guess I just\u2026 don\u2019t sleep much."
+    Position: {x: 769.6, y: 248.79999}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 94e9b937-8c92-4fb1-b6d1-fa151d3385f8
+    DialogueText: No, just the Cola.
+    Position: {x: 769.6, y: 386.4}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: b613bf81-fdec-4d80-b3b2-d9a490527f89
+    DialogueText: End Node
+    Position: {x: 1097.6, y: 266.4}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 1
+  CommentBlockData: []

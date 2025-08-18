@@ -1,0 +1,467 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Bob_Night2 End
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: f0af0f1c-428f-4fd5-b2d1-44cce03e9aa4
+    TargetNodeGUID: 7f23d8a5-4d53-4f86-b4b2-6ed1ff8d1741
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 7f23d8a5-4d53-4f86-b4b2-6ed1ff8d1741
+    TargetNodeGUID: e83bee96-692d-4d86-a32a-e26d309c3c39
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: e83bee96-692d-4d86-a32a-e26d309c3c39
+    TargetNodeGUID: 8d60f423-ce75-455e-9617-987c1ff38e38
+    DisplayText: "I\u2019ve got time. Go ahead."
+  - PortName: Next
+    BaseNodeGUID: 8d60f423-ce75-455e-9617-987c1ff38e38
+    TargetNodeGUID: 32112dd3-c3ea-4367-b4c1-5be4264d91ba
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 32112dd3-c3ea-4367-b4c1-5be4264d91ba
+    TargetNodeGUID: fa47c4a6-d09f-4a9d-85c3-863c6e18655b
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: fa47c4a6-d09f-4a9d-85c3-863c6e18655b
+    TargetNodeGUID: 9f87cd14-86b3-4a9a-90fa-8caa1420a506
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 9f87cd14-86b3-4a9a-90fa-8caa1420a506
+    TargetNodeGUID: 1b6f606c-6861-4385-83b9-8e73f96bf05e
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 1b6f606c-6861-4385-83b9-8e73f96bf05e
+    TargetNodeGUID: 54962b67-41f7-4c9d-b87c-1ae095f2c4b9
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 54962b67-41f7-4c9d-b87c-1ae095f2c4b9
+    TargetNodeGUID: 07bafc8e-28f0-4d6e-9d0f-3bcd04b07fe7
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 07bafc8e-28f0-4d6e-9d0f-3bcd04b07fe7
+    TargetNodeGUID: 5fd0e004-9a56-47b8-be38-a50b04e15358
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 5fd0e004-9a56-47b8-be38-a50b04e15358
+    TargetNodeGUID: cf587ed8-d30e-49b0-bfae-baf4e126e9cc
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: cf587ed8-d30e-49b0-bfae-baf4e126e9cc
+    TargetNodeGUID: eae76193-cc2b-4ede-b9ab-bd54a3f8a70e
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: eae76193-cc2b-4ede-b9ab-bd54a3f8a70e
+    TargetNodeGUID: b4f76b93-bd99-478f-b822-498af200b20c
+    DisplayText: Next time just say oak. Everyone likes oak.
+  - PortName: Option 2
+    BaseNodeGUID: eae76193-cc2b-4ede-b9ab-bd54a3f8a70e
+    TargetNodeGUID: e3c7c6b2-e3bd-4249-9a9b-6488a9bf9710
+    DisplayText: "Cactus tree is\u2026 unique?"
+  - PortName: Option 3
+    BaseNodeGUID: eae76193-cc2b-4ede-b9ab-bd54a3f8a70e
+    TargetNodeGUID: 12a7c999-0441-4805-a2f3-88be94686194
+    DisplayText: "Honestly, sounds like they didn\u2019t deserve you anyway."
+  - PortName: Next
+    BaseNodeGUID: b4f76b93-bd99-478f-b822-498af200b20c
+    TargetNodeGUID: c9f8772b-2324-455f-bcbb-be939c91bc7a
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: e3c7c6b2-e3bd-4249-9a9b-6488a9bf9710
+    TargetNodeGUID: c9f8772b-2324-455f-bcbb-be939c91bc7a
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 12a7c999-0441-4805-a2f3-88be94686194
+    TargetNodeGUID: 77c6ec5c-4ac8-4fb4-81ed-718cb6f81ad4
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 77c6ec5c-4ac8-4fb4-81ed-718cb6f81ad4
+    TargetNodeGUID: 4bab6ab5-c921-4955-8aa9-92d53ee1a4f3
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 4bab6ab5-c921-4955-8aa9-92d53ee1a4f3
+    TargetNodeGUID: b58b7ef4-6082-417e-9871-b5646f43d935
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: b58b7ef4-6082-417e-9871-b5646f43d935
+    TargetNodeGUID: 783e5f13-aebb-4e39-99b4-20d3102e9871
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 783e5f13-aebb-4e39-99b4-20d3102e9871
+    TargetNodeGUID: c9f8772b-2324-455f-bcbb-be939c91bc7a
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: c9f8772b-2324-455f-bcbb-be939c91bc7a
+    TargetNodeGUID: f84285cc-7b58-4675-a994-67b1acc77acd
+    DisplayText: Next
+  - PortName: Option 2
+    BaseNodeGUID: e83bee96-692d-4d86-a32a-e26d309c3c39
+    TargetNodeGUID: e5bd073a-fbf5-4c5a-b13c-40cb1b985e9a
+    DisplayText: Sorry, but I have work to do.
+  - PortName: Next
+    BaseNodeGUID: e5bd073a-fbf5-4c5a-b13c-40cb1b985e9a
+    TargetNodeGUID: ad87b6d6-f3ea-4928-82be-36c47fe27f4f
+    DisplayText: Next
+  DialogueNodeData:
+  - NodeGUID: e83bee96-692d-4d86-a32a-e26d309c3c39
+    DialogueText: Choice Node
+    Position: {x: 523.2, y: 200}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 8d60f423-ce75-455e-9617-987c1ff38e38
+    DialogueText: "Everything was going great, I\u2019d passed all the tests, nailed
+      the interview. Then they hit me with:"
+    Position: {x: 831.2, y: 147.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 32112dd3-c3ea-4367-b4c1-5be4264d91ba
+    DialogueText: "You seem like the man we need, but before we sign the contract,
+      there\u2019s one last question."
+    Position: {x: 1187.2, y: 147.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: fa47c4a6-d09f-4a9d-85c3-863c6e18655b
+    DialogueText: "I felt the nerves kick in, but I kept my cool. I was prepared
+      this time. I\u2019d read up on all those weird interview questions: animals,
+      superpowers, you name it."
+    Position: {x: 1532.8, y: 147.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 9f87cd14-86b3-4a9a-90fa-8caa1420a506
+    DialogueText: 'They look me dead in the eye and ask:'
+    Position: {x: 1847.2, y: 147.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 1b6f606c-6861-4385-83b9-8e73f96bf05e
+    DialogueText: If you were a tree, what kind of tree would you be?
+    Position: {x: 2111.2, y: 147.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 54962b67-41f7-4c9d-b87c-1ae095f2c4b9
+    DialogueText: "Excuse me\u2014what? A tree? Do I look like a tree expert?"
+    Position: {x: 2421.6, y: 147.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 07bafc8e-28f0-4d6e-9d0f-3bcd04b07fe7
+    DialogueText: I panicked. And what do I blurt out?
+    Position: {x: 2730.4, y: 147.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 5fd0e004-9a56-47b8-be38-a50b04e15358
+    DialogueText: "Uh\u2026 a cactus tree."
+    Position: {x: 2982.4, y: 147.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: cf587ed8-d30e-49b0-bfae-baf4e126e9cc
+    DialogueText: "What was I thinking? Cactus isn\u2019t even a tree!"
+    Position: {x: 3199.2, y: 147.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: eae76193-cc2b-4ede-b9ab-bd54a3f8a70e
+    DialogueText: Choice Node
+    Position: {x: 3499.2, y: 147.2}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: b4f76b93-bd99-478f-b822-498af200b20c
+    DialogueText: "Oak! Dammit, that\u2019s solid. Why didn\u2019t I think of that?"
+    Position: {x: 3948.8, y: 44.800003}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: e3c7c6b2-e3bd-4249-9a9b-6488a9bf9710
+    DialogueText: "I was going for something cool, y\u2019know? Spiky. Memorable."
+    Position: {x: 3945.6, y: 196}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 12a7c999-0441-4805-a2f3-88be94686194
+    DialogueText: "Heh\u2026 maybe you\u2019re right. They don\u2019t deserve me."
+    Position: {x: 3948.8, y: 347.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 77c6ec5c-4ac8-4fb4-81ed-718cb6f81ad4
+    DialogueText: Just like the company yesterday.
+    Position: {x: 4256.8, y: 347.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 4bab6ab5-c921-4955-8aa9-92d53ee1a4f3
+    DialogueText: And the one before that.
+    Position: {x: 4479.2, y: 347.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: b58b7ef4-6082-417e-9871-b5646f43d935
+    DialogueText: "\u2026And the one before that one."
+    Position: {x: 4692, y: 347.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 783e5f13-aebb-4e39-99b4-20d3102e9871
+    DialogueText: "But hey\u2014I\u2019ll take the sympathy. Thanks."
+    Position: {x: 4899.2, y: 347.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 7f23d8a5-4d53-4f86-b4b2-6ed1ff8d1741
+    DialogueText: "So about the story. You\u2019ve got time, right?"
+    Position: {x: 220, y: 229.6}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: f84285cc-7b58-4675-a994-67b1acc77acd
+    DialogueText: End Node
+    Position: {x: 5508.8, y: 147.2}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 3
+  - NodeGUID: c9f8772b-2324-455f-bcbb-be939c91bc7a
+    DialogueText: Bob lingers a bit, but leaves looking slightly less defeated thanks
+      to the milkshake.
+    Position: {x: 5171.2, y: 147.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: narrator_id
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: e5bd073a-fbf5-4c5a-b13c-40cb1b985e9a
+    DialogueText: Oh... okay.
+    Position: {x: 831.2, y: 337.6}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: ad87b6d6-f3ea-4928-82be-36c47fe27f4f
+    DialogueText: End Node
+    Position: {x: 1044, y: 337.6}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 3
+  CommentBlockData: []

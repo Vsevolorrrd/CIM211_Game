@@ -1,0 +1,140 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Bob_Night2 Start
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: f0af0f1c-428f-4fd5-b2d1-44cce03e9aa4
+    TargetNodeGUID: 7f23d8a5-4d53-4f86-b4b2-6ed1ff8d1741
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 7f23d8a5-4d53-4f86-b4b2-6ed1ff8d1741
+    TargetNodeGUID: 6c97e0e8-9c9f-4e4a-be00-3a602a80b588
+    DisplayText: Next
+  - PortName: Option 2
+    BaseNodeGUID: 6c97e0e8-9c9f-4e4a-be00-3a602a80b588
+    TargetNodeGUID: fa252e02-f7cb-4087-9db6-004f2c68ed37
+    DisplayText: Sure thing.
+  - PortName: Option 3
+    BaseNodeGUID: 6c97e0e8-9c9f-4e4a-be00-3a602a80b588
+    TargetNodeGUID: acdee728-2b7b-4cd4-bf1c-52a6bcd3590c
+    DisplayText: "Looks like you\u2019ve got a story again."
+  - PortName: Option 1
+    BaseNodeGUID: 6c97e0e8-9c9f-4e4a-be00-3a602a80b588
+    TargetNodeGUID: 907f8c84-ea05-411d-96bb-0d6e43605ad0
+    DisplayText: "Hey Bob! So, what\u2019s with the job?"
+  - PortName: Next
+    BaseNodeGUID: fa252e02-f7cb-4087-9db6-004f2c68ed37
+    TargetNodeGUID: 4869c939-2dd4-463f-b6f8-49c563ddabfb
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 907f8c84-ea05-411d-96bb-0d6e43605ad0
+    TargetNodeGUID: 4869c939-2dd4-463f-b6f8-49c563ddabfb
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: acdee728-2b7b-4cd4-bf1c-52a6bcd3590c
+    TargetNodeGUID: 4869c939-2dd4-463f-b6f8-49c563ddabfb
+    DisplayText: Next
+  DialogueNodeData:
+  - NodeGUID: 7f23d8a5-4d53-4f86-b4b2-6ed1ff8d1741
+    DialogueText: "Hey, champ! Guess who\u2019s back. Uh\u2026 milkshake, please."
+    Position: {x: 214.4, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 6c97e0e8-9c9f-4e4a-be00-3a602a80b588
+    DialogueText: Choice Node
+    Position: {x: 524.8, y: 200}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: fa252e02-f7cb-4087-9db6-004f2c68ed37
+    DialogueText: Damn right. Milk and sugar is all a man needs.
+    Position: {x: 908.8, y: 248}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: acdee728-2b7b-4cd4-bf1c-52a6bcd3590c
+    DialogueText: Oh boy, do I. But milkshake first.
+    Position: {x: 937.6, y: 420}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 907f8c84-ea05-411d-96bb-0d6e43605ad0
+    DialogueText: "Ah, yeah\u2026 about that. It's a crazy story, but I really need
+      that milky shake."
+    Position: {x: 937.6, y: 69.6}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 4869c939-2dd4-463f-b6f8-49c563ddabfb
+    DialogueText: End Node
+    Position: {x: 1340.8, y: 257.6}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 1
+  CommentBlockData: []

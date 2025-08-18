@@ -1,0 +1,142 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Nora_Night2 Start
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: f0af0f1c-428f-4fd5-b2d1-44cce03e9aa4
+    TargetNodeGUID: 9d4a8e3b-f5a9-4af2-99da-afc81886d407
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 9d4a8e3b-f5a9-4af2-99da-afc81886d407
+    TargetNodeGUID: 0a1ff2bb-128e-4080-ad95-b6604b51c1e9
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: 0a1ff2bb-128e-4080-ad95-b6604b51c1e9
+    TargetNodeGUID: 9cb2db77-2782-4bd6-8e59-661490cfc011
+    DisplayText: Latte, coming right up.
+  - PortName: Option 2
+    BaseNodeGUID: 0a1ff2bb-128e-4080-ad95-b6604b51c1e9
+    TargetNodeGUID: c01aa63e-2f70-4382-a023-d99b196b54ea
+    DisplayText: So, you own the corner shop?
+  - PortName: Option 3
+    BaseNodeGUID: 0a1ff2bb-128e-4080-ad95-b6604b51c1e9
+    TargetNodeGUID: 36bb0a3a-ccc1-4f68-95d4-ec7ed6b6c7bc
+    DisplayText: Curious to check out the competition?
+  - PortName: Next
+    BaseNodeGUID: 9cb2db77-2782-4bd6-8e59-661490cfc011
+    TargetNodeGUID: 529f4df9-970f-44eb-a6c0-eb4b104522f9
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: c01aa63e-2f70-4382-a023-d99b196b54ea
+    TargetNodeGUID: 529f4df9-970f-44eb-a6c0-eb4b104522f9
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 36bb0a3a-ccc1-4f68-95d4-ec7ed6b6c7bc
+    TargetNodeGUID: 529f4df9-970f-44eb-a6c0-eb4b104522f9
+    DisplayText: Next
+  DialogueNodeData:
+  - NodeGUID: 9d4a8e3b-f5a9-4af2-99da-afc81886d407
+    DialogueText: "Hi there. I run the little shop just down the street \u2014 been
+      meaning to see what this place is like at night. Mind making me a Latte?"
+    Position: {x: 214.4, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Nora
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 0a1ff2bb-128e-4080-ad95-b6604b51c1e9
+    DialogueText: Choice Node
+    Position: {x: 528, y: 200}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 9cb2db77-2782-4bd6-8e59-661490cfc011
+    DialogueText: Thanks, I need the fuel to survive mornings after midnight shifts.
+    Position: {x: 900, y: 94.4}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Nora
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: c01aa63e-2f70-4382-a023-d99b196b54ea
+    DialogueText: "That\u2019s me. Open all day, sometimes way too late. Feels like
+      I live there half the time."
+    Position: {x: 900, y: 245.6}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Nora
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 36bb0a3a-ccc1-4f68-95d4-ec7ed6b6c7bc
+    DialogueText: "Ha, don\u2019t worry. I only sell snacks and soda. You\u2019re
+      safe."
+    Position: {x: 900, y: 396.8}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Nora
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 529f4df9-970f-44eb-a6c0-eb4b104522f9
+    DialogueText: End Node
+    Position: {x: 1292.8, y: 245.6}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 1
+  CommentBlockData: []

@@ -27,11 +27,11 @@ MonoBehaviour:
     correctAnswer: "Oh thank god. This is exactly what I needed. You have no idea
       how many awful espressos I\u2019ve suffered through tonight."
     wrongAnswer: What is this?! Ugh.
-    endDialogue: {fileID: 11400000, guid: 1120492b0bbe94b46a7645808935a7ae, type: 2}
+    endDialogue: {fileID: 11400000, guid: 565c65a98a486a34f9997304040ded35, type: 2}
   - customer: {fileID: 11400000, guid: 9af86aa372e80b3428554bde6ac777b7, type: 2}
     requestedDrink: {fileID: 11400000, guid: 0a175aebd64f4644f9405ffed9cdf5db, type: 2}
     startDialogue: {fileID: 11400000, guid: 3f01f12202b6bcb4d80fe8a29c2abb6c, type: 2}
     correctAnswer: Perfect. For once today, something went right.
     wrongAnswer: "Oof. That\u2019s\u2026 bold. Not sure if it\u2019s legal, but hey,
       it\u2019s liquid."
-    endDialogue: {fileID: 11400000, guid: 7854e87dfd8814c40b5261760a87d8ba, type: 2}
+    endDialogue: {fileID: 11400000, guid: 24dbe1aa45aeddd44824d8b95b8abcef, type: 2}

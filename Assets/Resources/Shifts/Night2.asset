@@ -12,4 +12,24 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73280346139997042b6d64edd6737e5f, type: 3}
   m_Name: Night2
   m_EditorClassIdentifier: 
-  customerVisits: []
+  customerVisits:
+  - customer: {fileID: 11400000, guid: 9524d3fb10b313743a4088f13ab8648b, type: 2}
+    requestedDrink: {fileID: 11400000, guid: b84533716abe6284494d3f0a6d1270f6, type: 2}
+    startDialogue: {fileID: 11400000, guid: 2a65c084680b17847a75209e3dfd4335, type: 2}
+    correctAnswer: Cool.
+    wrongAnswer: "\u2026Oh\u2026 uh, it\u2019s fine."
+    endDialogue: {fileID: 11400000, guid: 5a3bae45493bce0449e020c38d6da289, type: 2}
+  - customer: {fileID: 11400000, guid: 9af86aa372e80b3428554bde6ac777b7, type: 2}
+    requestedDrink: {fileID: 11400000, guid: 8e63d8f0541ad364ea79f4d6623dcc0d, type: 2}
+    startDialogue: {fileID: 11400000, guid: 28508bf7e9d2389419cb9f4f88c94de1, type: 2}
+    correctAnswer: Perfect! Finally, something today went right.
+    wrongAnswer: " \u2026Huh. Not quite milkshake-y."
+    endDialogue: {fileID: 11400000, guid: 5a3bae45493bce0449e020c38d6da289, type: 2}
+  - customer: {fileID: 11400000, guid: 8abc9fb2dccef064dbf33a113ff52944, type: 2}
+    requestedDrink: {fileID: 11400000, guid: 46d5bc5226c410845adfc160d894d96a, type: 2}
+    startDialogue: {fileID: 11400000, guid: 63410c34254eb9349adcbfa39d95a5dc, type: 2}
+    correctAnswer: Perfect. Exactly what I needed. You might just keep me awake enough
+      to make it home.
+    wrongAnswer: "Oof, strong. Guess you\u2019re trying to make sure I don\u2019t
+      sleep for a week."
+    endDialogue: {fileID: 11400000, guid: f281d2008f31c284da8d7f5cbae9fe9b, type: 2}

@@ -1,0 +1,154 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Aren_Night2 End
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: 8accee8d-20ca-4879-aeca-70c30c1aefb5
+    TargetNodeGUID: 593a086a-88f5-48f5-b5b9-0de95a5229b0
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 593a086a-88f5-48f5-b5b9-0de95a5229b0
+    TargetNodeGUID: 2f22a935-d93b-4bab-808b-6409e0e03d13
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: 2f22a935-d93b-4bab-808b-6409e0e03d13
+    TargetNodeGUID: a6a6872d-c630-49f7-a03e-4ad0f6ca2b64
+    DisplayText: Your welcome! Have a good night.
+  - PortName: Option 2
+    BaseNodeGUID: 2f22a935-d93b-4bab-808b-6409e0e03d13
+    TargetNodeGUID: 6145286c-041c-4e31-92ff-fc2e2b17751a
+    DisplayText: You new around here?
+  - PortName: Option 3
+    BaseNodeGUID: 2f22a935-d93b-4bab-808b-6409e0e03d13
+    TargetNodeGUID: 93074f5f-1a24-4552-8a64-afe18346355b
+    DisplayText: Not much of a coffee fan?
+  - PortName: Next
+    BaseNodeGUID: 6145286c-041c-4e31-92ff-fc2e2b17751a
+    TargetNodeGUID: c0abcf6a-6932-4e94-b104-6276ae3c057f
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 93074f5f-1a24-4552-8a64-afe18346355b
+    TargetNodeGUID: c0abcf6a-6932-4e94-b104-6276ae3c057f
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: c0abcf6a-6932-4e94-b104-6276ae3c057f
+    TargetNodeGUID: fa403930-7b87-404e-b52c-6b4374c620c7
+    DisplayText: Next
+  DialogueNodeData:
+  - NodeGUID: 593a086a-88f5-48f5-b5b9-0de95a5229b0
+    DialogueText: Thank you.
+    Position: {x: 220, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 2f22a935-d93b-4bab-808b-6409e0e03d13
+    DialogueText: Choice Node
+    Position: {x: 464, y: 200}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 6145286c-041c-4e31-92ff-fc2e2b17751a
+    DialogueText: "\u2026Sometimes I come here. At night. It\u2019s jus quiet here."
+    Position: {x: 815.2, y: 69.6}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: a6a6872d-c630-49f7-a03e-4ad0f6ca2b64
+    DialogueText: End Node
+    Position: {x: 801.6, y: 385.6}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 3
+  - NodeGUID: 93074f5f-1a24-4552-8a64-afe18346355b
+    DialogueText: "I like coffee. Just\u2026 not tonight."
+    Position: {x: 815.2, y: 235.20001}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: c0abcf6a-6932-4e94-b104-6276ae3c057f
+    DialogueText: Thanks again.
+    Position: {x: 1175.2, y: 166.4}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: fa403930-7b87-404e-b52c-6b4374c620c7
+    DialogueText: End Node
+    Position: {x: 1392.8, y: 175.2}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 3
+  CommentBlockData: []

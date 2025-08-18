@@ -10,40 +10,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
-  m_Name: Elias_Night1 Second
+  m_Name: Elias_Nigh1 End
   m_EditorClassIdentifier: 
   NodeLinks:
   - PortName: Next
-    BaseNodeGUID: 8209c6d2-d3a0-499c-8921-e90f64851629
-    TargetNodeGUID: a84abef0-0d60-474c-949b-8e59518540d6
+    BaseNodeGUID: 99bd12d0-88e3-4e35-8f18-697b2aba5a63
+    TargetNodeGUID: 9936f76e-65aa-4244-a544-5c2cf95b74c4
     DisplayText: Next
   - PortName: Next
-    BaseNodeGUID: a84abef0-0d60-474c-949b-8e59518540d6
-    TargetNodeGUID: c695408f-acaf-4faf-b129-00fafd46c3fc
-    DisplayText: Next
-  - PortName: Next
-    BaseNodeGUID: c695408f-acaf-4faf-b129-00fafd46c3fc
-    TargetNodeGUID: 99a7f2e7-bc91-441a-87ee-ff211c407a03
+    BaseNodeGUID: 9936f76e-65aa-4244-a544-5c2cf95b74c4
+    TargetNodeGUID: cccc5af2-3ab4-4eeb-9802-d3bfd83b7621
     DisplayText: Next
   DialogueNodeData:
-  - NodeGUID: a84abef0-0d60-474c-949b-8e59518540d6
-    DialogueText: Oh thank you
-    Position: {x: 217.6, y: 200}
-    NodeType: 0
-    CharacterEmotion: 0
-    Actor: Elias
-    DisplayText: 
-    StringConditionKey: 
-    BoolConditionKey: 
-    BoolConditionExpectedValue: 0
-    RandomConditionValue: 0
-    EventType: 0
-    EventName: 
-    EventValue: 0
-    EndAction: 0
-  - NodeGUID: c695408f-acaf-4faf-b129-00fafd46c3fc
+  - NodeGUID: 9936f76e-65aa-4244-a544-5c2cf95b74c4
     DialogueText: Alright, back to the grind. Or collapse. I haven't decided yet.
-    Position: {x: 432.8, y: 200}
+      Thanks.
+    Position: {x: 215.2, y: 200}
     NodeType: 0
     CharacterEmotion: 0
     Actor: Elias
@@ -56,9 +38,9 @@ MonoBehaviour:
     EventName: 
     EventValue: 0
     EndAction: 0
-  - NodeGUID: 99a7f2e7-bc91-441a-87ee-ff211c407a03
+  - NodeGUID: cccc5af2-3ab4-4eeb-9802-d3bfd83b7621
     DialogueText: End Node
-    Position: {x: 745.6, y: 200}
+    Position: {x: 541.6, y: 216.8}
     NodeType: 6
     CharacterEmotion: 0
     Actor: 

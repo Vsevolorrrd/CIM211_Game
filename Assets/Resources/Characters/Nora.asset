@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 37106883449a1ec40852947ab4cb3c03, type: 3}
+  m_Name: Nora
+  m_EditorClassIdentifier: 
+  CharacterID: Nora
+  CharacterName: Nora
+  characterPrefab: {fileID: 441092872659871293, guid: 70bb2d2b03fecfc4c932527202b0f205, type: 3}

@@ -4,21 +4,24 @@ using UnityEngine;
 
 public class DialogueActivator : MonoBehaviour
 {
-    [SerializeField] DialogueContainer defaultResponse;
     public DialogueContainer beforeDrinkDialogue;
     public DialogueContainer endDialogue;
     public string correct;
     public string wrong;
     private bool activated = false;
     private bool readyToGo = false;
+    private bool stop = false;
 
     private void OnMouseDown()
     {
+        if(stop) return;
+
         if (D_Manager.Instance.IsSpeaking()) return;
 
         if (readyToGo)
         {
             D_Manager.Instance.StartDialogue(endDialogue);
+            stop = true;
             return;
         }
 
@@ -27,7 +30,7 @@ public class DialogueActivator : MonoBehaviour
             if (!DrinkManager.Instance.DrinkDone())
             {
                 string drink = ShiftManager.Instance.GetCustomerVisit().requestedDrink.drinkName;
-                D_Manager.Instance.SetTextTo("I ordered " + drink + ".");
+                D_Manager.Instance.SetTextTo("I ordered " + drink.ToLower() + ".");
                 return;
             }
 
