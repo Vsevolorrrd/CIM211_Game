@@ -77,5 +77,11 @@ namespace Characters
 
             return spawnedChar;
         }
+        public void RemoveCurrentCharacter()
+        {
+            CharacterHolder characterHolder = currentCharacter.GetComponent<CharacterHolder>();
+            characterHolder.SetAllFacesOff();
+            characterHolder.characterFader.FadeOut();
+        }
     }
 }

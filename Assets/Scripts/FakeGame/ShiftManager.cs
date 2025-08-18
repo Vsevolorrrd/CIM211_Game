@@ -4,7 +4,9 @@ using UnityEngine;
 public class ShiftManager : Singleton<ShiftManager>
 {
     [Header("Shift Data")]
+    public NightShift[] nightShifts;
     public NightShift currentShift;
+    private int currentShiftIndex = 0;
 
     private CustomerVisit currentCustomer;
     private int currentCustomerIndex = 0;
@@ -16,7 +18,7 @@ public class ShiftManager : Singleton<ShiftManager>
 
     void Start()
     {
-        StartShift(currentShift);
+        StartShift();
     }
     private void SpawnCustomer(CustomerVisit visit)
     {
@@ -47,17 +49,20 @@ public class ShiftManager : Singleton<ShiftManager>
         }
     }
 
-    public void StartShift(NightShift shift)
+    public void StartShift()
     {
-        currentShift = shift;
+        currentShift = nightShifts[currentShiftIndex];
         currentCustomerIndex = 0;
         approvalScore = 100;
 
-        OnNextCustomer();
+        Invoke("OnNextCustomer", 4f);
     }
 
     public void EndShift()
     {
+        CharacterManager.Instance.RemoveCurrentCharacter();
+        ShiftUI.instance.FinishShift();
+        currentShiftIndex++;
         Debug.Log("Shift ended with approval: " + approvalScore);
     }
 
