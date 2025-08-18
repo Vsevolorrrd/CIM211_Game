@@ -1,0 +1,400 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Bob_Night1 Start
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: 1b416c84-7669-427d-85c5-8e15925f6097
+    TargetNodeGUID: 3d00c666-f562-4498-8b2e-6cc795743ee9
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 3d00c666-f562-4498-8b2e-6cc795743ee9
+    TargetNodeGUID: 12b3d937-ca9d-44f0-b38f-282c7c41e13a
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: 12b3d937-ca9d-44f0-b38f-282c7c41e13a
+    TargetNodeGUID: 0dcdc877-2bf2-4b58-99aa-44ecab5dfe3d
+    DisplayText: Rum and cola coming right up. Rough day?
+  - PortName: Option 2
+    BaseNodeGUID: 12b3d937-ca9d-44f0-b38f-282c7c41e13a
+    TargetNodeGUID: 137a637e-8e16-4496-92b6-e3fec1038769
+    DisplayText: Sure.
+  - PortName: Next
+    BaseNodeGUID: 0dcdc877-2bf2-4b58-99aa-44ecab5dfe3d
+    TargetNodeGUID: 9a332d9f-c14a-467e-b6f8-14e62e8e8da0
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 137a637e-8e16-4496-92b6-e3fec1038769
+    TargetNodeGUID: 9a332d9f-c14a-467e-b6f8-14e62e8e8da0
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: 9a332d9f-c14a-467e-b6f8-14e62e8e8da0
+    TargetNodeGUID: 70a8fc54-b70f-405e-bd34-a4f4e69a7574
+    DisplayText: "I\u2019ve got time. Go ahead."
+  - PortName: Option 2
+    BaseNodeGUID: 9a332d9f-c14a-467e-b6f8-14e62e8e8da0
+    TargetNodeGUID: ba5a36b7-db97-4639-868f-8dc485d7b750
+    DisplayText: Sorry, but I have work to do.
+  - PortName: Next
+    BaseNodeGUID: 70a8fc54-b70f-405e-bd34-a4f4e69a7574
+    TargetNodeGUID: e8591d6f-5327-45d1-94ca-496c66c81ee0
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: e8591d6f-5327-45d1-94ca-496c66c81ee0
+    TargetNodeGUID: d41377f1-f49a-4e20-9e46-075b6998a6fa
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: d41377f1-f49a-4e20-9e46-075b6998a6fa
+    TargetNodeGUID: 1d18262b-9bd9-433a-b181-dcd1fce7d346
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 1d18262b-9bd9-433a-b181-dcd1fce7d346
+    TargetNodeGUID: 1c7594b7-3961-483d-9de0-7f2b1046c707
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 1c7594b7-3961-483d-9de0-7f2b1046c707
+    TargetNodeGUID: 2047d9e2-c037-48c8-9f80-97f962cd7f57
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 2047d9e2-c037-48c8-9f80-97f962cd7f57
+    TargetNodeGUID: f234ed29-95b5-4899-868c-179d06b4cf1e
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: f234ed29-95b5-4899-868c-179d06b4cf1e
+    TargetNodeGUID: 8236cb71-0b67-4223-a211-990b60a7d41a
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 8236cb71-0b67-4223-a211-990b60a7d41a
+    TargetNodeGUID: 99dff63c-8d32-4f6b-a086-e14ed770db6b
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: 99dff63c-8d32-4f6b-a086-e14ed770db6b
+    TargetNodeGUID: 1f63d5f6-f022-4d4d-9a12-2727409b185f
+    DisplayText: "That\u2019s rough. But hey, jellyfish are graceful?"
+  - PortName: Option 2
+    BaseNodeGUID: 99dff63c-8d32-4f6b-a086-e14ed770db6b
+    TargetNodeGUID: 60928d89-0e40-488a-9d48-53ac04befaed
+    DisplayText: Next time just say wolf. Always works.
+  - PortName: Option 3
+    BaseNodeGUID: 99dff63c-8d32-4f6b-a086-e14ed770db6b
+    TargetNodeGUID: e7306b48-9850-45f7-ace6-f163968128b3
+    DisplayText: "Honestly, sounds like they didn\u2019t deserve you."
+  - PortName: Next
+    BaseNodeGUID: 1f63d5f6-f022-4d4d-9a12-2727409b185f
+    TargetNodeGUID: fa383929-22dc-4791-b8ff-7d299ce777c7
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 60928d89-0e40-488a-9d48-53ac04befaed
+    TargetNodeGUID: fa383929-22dc-4791-b8ff-7d299ce777c7
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: e7306b48-9850-45f7-ace6-f163968128b3
+    TargetNodeGUID: fa383929-22dc-4791-b8ff-7d299ce777c7
+    DisplayText: Next
+  DialogueNodeData:
+  - NodeGUID: 3d00c666-f562-4498-8b2e-6cc795743ee9
+    DialogueText: "Evening\u2026 or morning? I\u2019m terrible at telling time. I
+      need\u2026 um\u2026 something that tastes good but won\u2019t bankrupt me.
+      Hm\u2026 I think I\u2019ll take Rum and Cola."
+    Position: {x: 217.6, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 12b3d937-ca9d-44f0-b38f-282c7c41e13a
+    DialogueText: Choice Node
+    Position: {x: 542.4, y: 200}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 0dcdc877-2bf2-4b58-99aa-44ecab5dfe3d
+    DialogueText: "Ah, yeah. Rough doesn\u2019t begin to cover it. You probably want
+      to hear the story\u2026(He pauses, hopeful)"
+    Position: {x: 1015.2, y: 117.600006}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 137a637e-8e16-4496-92b6-e3fec1038769
+    DialogueText: "You know this day was crazy. You probably want to hear the story\u2026He
+      pauses, hopeful"
+    Position: {x: 1015.2, y: 282.4}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 9a332d9f-c14a-467e-b6f8-14e62e8e8da0
+    DialogueText: Choice Node
+    Position: {x: 1403.2, y: 217.6}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 70a8fc54-b70f-405e-bd34-a4f4e69a7574
+    DialogueText: "(sighs, then leans in)\nSo, I had this interview today. Dream
+      job, too. Finally something I\u2019d be good at \u2014 steady pay, weekends
+      off."
+    Position: {x: 1736, y: 80}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: ba5a36b7-db97-4639-868f-8dc485d7b750
+    DialogueText: End Node
+    Position: {x: 1736, y: 301.6}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 1
+  - NodeGUID: e8591d6f-5327-45d1-94ca-496c66c81ee0
+    DialogueText: "Interview was going fine \u2014 I mean, they actually seemed interested.
+      I was this close."
+    Position: {x: 2061.6, y: 80}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: d41377f1-f49a-4e20-9e46-075b6998a6fa
+    DialogueText: "And then\u2026 they ask this one question. Not about the job.
+      Not about skills. Nope. They go:"
+    Position: {x: 2374.4, y: 80}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 1d18262b-9bd9-433a-b181-dcd1fce7d346
+    DialogueText: If you were an animal, what animal would you be?
+    Position: {x: 2684.8, y: 80}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 1c7594b7-3961-483d-9de0-7f2b1046c707
+    DialogueText: Like, what the hell does that have to do with spreadsheets?
+    Position: {x: 2985.6, y: 80}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 2047d9e2-c037-48c8-9f80-97f962cd7f57
+    DialogueText: "I froze. Couldn\u2019t think of anything. Then I panicked and
+      said\u2026"
+    Position: {x: 3306.4, y: 80}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 8236cb71-0b67-4223-a211-990b60a7d41a
+    DialogueText: A jellyfish! Who hires a jellyfish?! Nobody. Nobody does. They
+      thanked me, shook my hand, and I knew it was over.
+    Position: {x: 3824.8, y: 80}
+    NodeType: 0
+    CharacterEmotion: 2
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: f234ed29-95b5-4899-868c-179d06b4cf1e
+    DialogueText: A jellyfish.
+    Position: {x: 3615.2, y: 80}
+    NodeType: 0
+    CharacterEmotion: 2
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 99dff63c-8d32-4f6b-a086-e14ed770db6b
+    DialogueText: Choice Node
+    Position: {x: 4156, y: 80}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 1f63d5f6-f022-4d4d-9a12-2727409b185f
+    DialogueText: "Graceful, huh? Guess I\u2019ll cling to that. Better than spineless."
+    Position: {x: 4600.8, y: 16}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 60928d89-0e40-488a-9d48-53ac04befaed
+    DialogueText: "Wolf? Damn. Why didn\u2019t I think of that? Way cooler."
+    Position: {x: 4600.8, y: 167.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: e7306b48-9850-45f7-ace6-f163968128b3
+    DialogueText: "Heh. Thanks. You\u2019re alright, barkeep."
+    Position: {x: 4600.8, y: 318.4}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Bob
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: fa383929-22dc-4791-b8ff-7d299ce777c7
+    DialogueText: End Node
+    Position: {x: 4998.4, y: 139.2}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 1
+  CommentBlockData: []

@@ -6,8 +6,7 @@ public class DialogueActivator : MonoBehaviour
 {
     [SerializeField] DialogueContainer defaultResponse;
     public DialogueContainer beforeDrinkDialogue;
-    public DialogueContainer correctDrinkDialogue;
-    public DialogueContainer wrongDrinkDialogue;
+    public DialogueContainer endDialogue;
     private bool activated = false;
 
     private void OnMouseDown()
@@ -18,19 +17,19 @@ public class DialogueActivator : MonoBehaviour
         {
             if (!DrinkManager.Instance.DrinkDone())
             {
-                if (defaultResponse)
-                D_Manager.Instance.StartDialogue(defaultResponse);
+                string drink = ShiftManager.Instance.GetCustomerVisit().requestedDrink.drinkName;
+                D_Manager.Instance.SetTextTo("I ordered " + drink + ".");
                 return;
             }
 
             if (DrinkManager.Instance.FinishDrink())
             {
-                D_Manager.Instance.StartDialogue(correctDrinkDialogue);
+                D_Manager.Instance.StartDialogue(endDialogue);
                 return;
             }
             else
             {
-                D_Manager.Instance.StartDialogue(wrongDrinkDialogue);
+                D_Manager.Instance.StartDialogue(endDialogue);
                 return;
             }
 

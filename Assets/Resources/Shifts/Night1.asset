@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73280346139997042b6d64edd6737e5f, type: 3}
+  m_Name: Night1
+  m_EditorClassIdentifier: 
+  customerVisits:
+  - customer: {fileID: 11400000, guid: 513ef48cc548a014990deb9a66429b8c, type: 2}
+    requestedDrink: {fileID: 11400000, guid: 8e63d8f0541ad364ea79f4d6623dcc0d, type: 2}
+    startDialogue: {fileID: 11400000, guid: ad2ec6debd5039445add0afea0f7b213, type: 2}
+    endDialogue: {fileID: 11400000, guid: cc36bbbf3637ce946b19c769df3b0d04, type: 2}
+  - customer: {fileID: 11400000, guid: a420cb0a9ec324c489b9ede48b6028f4, type: 2}
+    requestedDrink: {fileID: 11400000, guid: 02a545f34dfd8a041af2b1bff5151328, type: 2}
+    startDialogue: {fileID: 11400000, guid: 80deb3e71b8c82a47beb4fe8a838907c, type: 2}
+    endDialogue: {fileID: 11400000, guid: 1120492b0bbe94b46a7645808935a7ae, type: 2}
+  - customer: {fileID: 11400000, guid: 9af86aa372e80b3428554bde6ac777b7, type: 2}
+    requestedDrink: {fileID: 11400000, guid: 0a175aebd64f4644f9405ffed9cdf5db, type: 2}
+    startDialogue: {fileID: 11400000, guid: 3f01f12202b6bcb4d80fe8a29c2abb6c, type: 2}
+    endDialogue: {fileID: 11400000, guid: 7854e87dfd8814c40b5261760a87d8ba, type: 2}

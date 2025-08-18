@@ -41,6 +41,11 @@ namespace Subtegral.DialogueSystem.Runtime
                 dialogueText.text = text;
             }
         }
+        public void SetTextTo(string text)
+        {
+            dialogueText.text = text;
+            UI.gameObject.SetActive(true);
+        }
 
         public void ClearText()
         {

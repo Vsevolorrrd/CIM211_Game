@@ -180,8 +180,6 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   currentShift: {fileID: 11400000, guid: 665a83b35fbe7aa44a8b36b5329234d6, type: 2}
-  timeScale: 1
-  shiftTimer: 0
 --- !u!4 &363609433
 Transform:
   m_ObjectHideFlags: 0
@@ -1117,6 +1115,15 @@ PrefabInstance:
       propertyPath: m_Camera
       value: 
       objectReference: {fileID: 1730886097}
+    - target: {fileID: 2177239705011096409, guid: 10c18853f17bebf429edd0789f8c573d, type: 3}
+      propertyPath: m_text
+      value: "<B>Alcoholic</B>\n  Rum & Cola \u2014 Rum + Cola\n  Vodka Soda \u2014
+        Vodka + Soda Water\n  Screwdriver \u2014 Vodka + Fruit Juice\n\n<B>Non-Alcoholic</B>
+        \n  Cola  \u2014 Cola\n  Fruit Fizz \u2014 Fruit Juice + Soda Water\n  Sweet
+        Fruit Fizz \u2014 Fruit Juice + Soda Water + Sugar\n  Milkshake \u2014 Milk
+        + Sugar\n\n<B>Coffee</B>\n  Espresso \u2014 Espresso\n  Sweet Espresso \u2014
+        Espresso + Sugar\n  Latte \u2014 Espresso + Milk"
+      objectReference: {fileID: 0}
     - target: {fileID: 6787519141294765517, guid: 10c18853f17bebf429edd0789f8c573d, type: 3}
       propertyPath: m_Pivot.x
       value: 0

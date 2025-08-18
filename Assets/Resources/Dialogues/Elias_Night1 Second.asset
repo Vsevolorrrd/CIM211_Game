@@ -1,0 +1,74 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Elias_Night1 Second
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: 8209c6d2-d3a0-499c-8921-e90f64851629
+    TargetNodeGUID: a84abef0-0d60-474c-949b-8e59518540d6
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: a84abef0-0d60-474c-949b-8e59518540d6
+    TargetNodeGUID: c695408f-acaf-4faf-b129-00fafd46c3fc
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: c695408f-acaf-4faf-b129-00fafd46c3fc
+    TargetNodeGUID: 99a7f2e7-bc91-441a-87ee-ff211c407a03
+    DisplayText: Next
+  DialogueNodeData:
+  - NodeGUID: a84abef0-0d60-474c-949b-8e59518540d6
+    DialogueText: Oh thank you
+    Position: {x: 217.6, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Elias
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: c695408f-acaf-4faf-b129-00fafd46c3fc
+    DialogueText: Alright, back to the grind. Or collapse. I haven't decided yet.
+    Position: {x: 432.8, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Elias
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 99a7f2e7-bc91-441a-87ee-ff211c407a03
+    DialogueText: End Node
+    Position: {x: 745.6, y: 200}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 3
+  CommentBlockData: []

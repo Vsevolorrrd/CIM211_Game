@@ -173,7 +173,7 @@ namespace Subtegral.DialogueSystem.Runtime
                     break;
 
                 case EndAction.CustomerLeaves:
-                    ShiftManager.instance.OnCustomerServed();
+                    ShiftManager.instance.OnNextCustomer();
                     break;
 
                 default:
@@ -216,6 +216,10 @@ namespace Subtegral.DialogueSystem.Runtime
                 yield return null;
             }
             ProceedToNarrative(targetNodeGUID);
+        }
+        public void SetTextTo(string text)
+        {
+            UIManager.SetTextTo(text);
         }
     }
 }
