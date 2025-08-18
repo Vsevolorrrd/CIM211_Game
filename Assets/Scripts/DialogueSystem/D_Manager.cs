@@ -220,6 +220,8 @@ namespace Subtegral.DialogueSystem.Runtime
         public void SetTextTo(string text)
         {
             UIManager.SetTextTo(text);
+            // so first click doesn't skip
+            inputBlockTimer = 0.3f;
         }
     }
 }

@@ -20,7 +20,7 @@ public class CustomerVisit
 
     [Tooltip("All dialogues for the night.")]
     public DialogueContainer startDialogue;
-    //public DialogueContainer correctDialogue;
-    //public DialogueContainer wrongDialogue;
+    public string correctAnswer;
+    public string wrongAnswer;
     public DialogueContainer endDialogue;
 }

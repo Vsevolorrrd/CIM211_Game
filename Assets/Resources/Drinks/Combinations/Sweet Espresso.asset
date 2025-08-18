@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ed8fc68af819daa43870e860068ba7ce, type: 3}
   m_Name: Sweet Espresso
   m_EditorClassIdentifier: 
-  drinkName: Sweet Espressp
+  drinkName: Sweet Espresso
   icon: {fileID: 0}
   ingredients:
   - Espresso

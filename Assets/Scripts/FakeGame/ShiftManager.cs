@@ -26,8 +26,8 @@ public class ShiftManager : Singleton<ShiftManager>
 
         var dialogueActiv = spawnedCharacter.GetComponent<DialogueActivator>();
         dialogueActiv.beforeDrinkDialogue = visit.startDialogue;
-        //dialogueActiv.correctDrinkDialogue = visit.correctDialogue;
-        //dialogueActiv.wrongDrinkDialogue = visit.wrongDialogue;
+        dialogueActiv.correct = visit.correctAnswer;
+        dialogueActiv.wrong = visit.wrongAnswer;
         dialogueActiv.endDialogue = visit.endDialogue;
 
         Debug.Log($"Customer {visit.customer.CharacterID} arrived");

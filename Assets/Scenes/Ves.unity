@@ -179,7 +179,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c7905bdceac2a184fbf0a5ecf8f9312a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  currentShift: {fileID: 11400000, guid: 665a83b35fbe7aa44a8b36b5329234d6, type: 2}
+  currentShift: {fileID: 11400000, guid: cdd90bf8d092b5944b0ce3d739afa23b, type: 2}
 --- !u!4 &363609433
 Transform:
   m_ObjectHideFlags: 0

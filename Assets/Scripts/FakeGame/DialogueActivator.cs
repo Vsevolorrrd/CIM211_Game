@@ -7,11 +7,20 @@ public class DialogueActivator : MonoBehaviour
     [SerializeField] DialogueContainer defaultResponse;
     public DialogueContainer beforeDrinkDialogue;
     public DialogueContainer endDialogue;
+    public string correct;
+    public string wrong;
     private bool activated = false;
+    private bool readyToGo = false;
 
     private void OnMouseDown()
     {
         if (D_Manager.Instance.IsSpeaking()) return;
+
+        if (readyToGo)
+        {
+            D_Manager.Instance.StartDialogue(endDialogue);
+            return;
+        }
 
         if (activated)
         {
@@ -24,12 +33,16 @@ public class DialogueActivator : MonoBehaviour
 
             if (DrinkManager.Instance.FinishDrink())
             {
-                D_Manager.Instance.StartDialogue(endDialogue);
+                string name = ShiftManager.Instance.GetCustomerVisit().customer.CharacterName;
+                D_Manager.Instance.SetTextTo($"<b>{name}</b>\n{correct}");
+                readyToGo = true;
                 return;
             }
             else
             {
-                D_Manager.Instance.StartDialogue(endDialogue);
+                string name = ShiftManager.Instance.GetCustomerVisit().customer.CharacterName;
+                D_Manager.Instance.SetTextTo($"<b>{name}</b>\n{wrong}");
+                readyToGo = true;
                 return;
             }
 
