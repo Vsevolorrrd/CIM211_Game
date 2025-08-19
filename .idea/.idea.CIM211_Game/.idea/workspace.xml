@@ -5,9 +5,24 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="5de69b51-cb5d-4d01-a1bc-f50a8c4d33a6" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Quiter.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Utils/Quiter.cs.meta" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/MainMenu.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.CIM211_Game/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.CIM211_Game/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/GameAssets/Characters/Aren/Untitled_Artwork 3.png.meta" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/GameAssets/Characters/Aren/Untitled_Artwork 3.png.meta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Aren.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Aren.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Bob.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Bob.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Elias.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Elias.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Kira.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Kira.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Mina.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Mina.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Ms.Park.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Ms.Park.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Characters/Nora.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Characters/Nora.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Shifts/Night1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Shifts/Night1.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Shifts/Night2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Shifts/Night2.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Resources/Shifts/Night3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Resources/Shifts/Night3.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/SampleScene.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Ves.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Ves.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FakeGame/DialogueActivator.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FakeGame/DialogueActivator.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FakeGame/NightShift.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FakeGame/NightShift.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FakeGame/ShiftManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FakeGame/ShiftManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/FakeGame/ShiftUI.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/FakeGame/ShiftUI.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,12 +38,12 @@
     &quot;assignee&quot;: &quot;JWGoedvolk&quot;
   }
 }</component>
-  <component name="GithubPullRequestsUISettings">{
-  &quot;selectedUrlAndAccountId&quot;: {
-    &quot;url&quot;: &quot;https://github.com/Vsevolorrrd/CIM211_Game.git&quot;,
-    &quot;accountId&quot;: &quot;88279c86-a587-4290-99bc-ed6ffc30b40c&quot;
+  <component name="GithubPullRequestsUISettings"><![CDATA[{
+  "selectedUrlAndAccountId": {
+    "url": "https://github.com/Vsevolorrrd/CIM211_Game.git",
+    "accountId": "d43e8012-0627-43d5-9ac0-b02448c1ab04"
   }
-}</component>
+}]]></component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 1
 }</component>
@@ -61,9 +76,6 @@
       <option name="WORKING_DIRECTORY" value="C:\Users\User\Repos\CIM211\CIM211_Game" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <method v="2" />
     </configuration>
     <configuration name="Unit Tests (batch mode)" type="RunUnityExe" factoryName="Unity Executable">
@@ -72,9 +84,6 @@
       <option name="WORKING_DIRECTORY" value="C:\Users\User\Repos\CIM211\CIM211_Game" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
-      <option name="ENV_FILE_PATHS" value="" />
-      <option name="REDIRECT_INPUT_PATH" value="" />
-      <option name="PTY_MODE" value="Auto" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -88,7 +97,6 @@
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
     <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
@@ -102,10 +110,10 @@
       <option name="selectedOptions">
         <list />
       </option>
-      <option name="useMixedMode" value="false" />
       <method v="2" />
     </configuration>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="5de69b51-cb5d-4d01-a1bc-f50a8c4d33a6" name="Changes" comment="" />
@@ -115,6 +123,7 @@
       <updated>1755267844896</updated>
       <workItem from="1755267846802" duration="4173000" />
       <workItem from="1755272151252" duration="5564000" />
+      <workItem from="1755568093991" duration="2305000" />
     </task>
     <servers />
   </component>
@@ -130,23 +139,5 @@
   <component name="UnityUnitTestConfiguration" currentTestLauncher="Both" />
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.OperationCanceledException" breakIfHandledByOtherCode="false" displayValue="System.OperationCanceledException" />
-          <option name="timeStamp" value="1" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.Tasks.TaskCanceledException" breakIfHandledByOtherCode="false" displayValue="System.Threading.Tasks.TaskCanceledException" />
-          <option name="timeStamp" value="2" />
-        </breakpoint>
-        <breakpoint enabled="true" type="DotNet_Exception_Breakpoints">
-          <properties exception="System.Threading.ThreadAbortException" breakIfHandledByOtherCode="false" displayValue="System.Threading.ThreadAbortException" />
-          <option name="timeStamp" value="3" />
-        </breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>

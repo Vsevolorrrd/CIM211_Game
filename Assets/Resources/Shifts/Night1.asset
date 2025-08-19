@@ -35,3 +35,4 @@ MonoBehaviour:
     wrongAnswer: "Oof. That\u2019s\u2026 bold. Not sure if it\u2019s legal, but hey,
       it\u2019s liquid."
     endDialogue: {fileID: 11400000, guid: 24dbe1aa45aeddd44824d8b95b8abcef, type: 2}
+  ShiftName: Shift 1 | Monday

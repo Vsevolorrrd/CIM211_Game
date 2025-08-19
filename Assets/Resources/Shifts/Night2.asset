@@ -33,3 +33,4 @@ MonoBehaviour:
     wrongAnswer: "Oof, strong. Guess you\u2019re trying to make sure I don\u2019t
       sleep for a week."
     endDialogue: {fileID: 11400000, guid: f281d2008f31c284da8d7f5cbae9fe9b, type: 2}
+  ShiftName: Shift 2 | Tuesday

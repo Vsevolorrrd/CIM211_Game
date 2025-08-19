@@ -1,3 +1,4 @@
+using System;
 using Subtegral.DialogueSystem.DataContainers;
 using Subtegral.DialogueSystem.Runtime;
 using UnityEngine;
@@ -11,6 +12,8 @@ public class DialogueActivator : MonoBehaviour
     private bool activated = false;
     private bool readyToGo = false;
     private bool stop = false;
+
+    public GameObject Outline;
 
     private void OnMouseDown()
     {
@@ -53,5 +56,15 @@ public class DialogueActivator : MonoBehaviour
 
         D_Manager.Instance.StartDialogue(beforeDrinkDialogue);
         activated = true;
+    }
+
+    private void OnMouseEnter()
+    {
+        Outline.SetActive(true);
+    }
+
+    private void OnMouseExit()
+    {
+        Outline.SetActive(false);
     }
 }

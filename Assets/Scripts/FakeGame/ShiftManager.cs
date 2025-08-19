@@ -1,5 +1,7 @@
 using Characters;
+using TMPro;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class ShiftManager : Singleton<ShiftManager>
 {
@@ -15,6 +17,8 @@ public class ShiftManager : Singleton<ShiftManager>
 
     public CustomerVisit GetCustomerVisit() => currentCustomer;
     public int GetApprovalScore() => approvalScore;
+
+    public TMP_Text ShiftText;
 
     void Start()
     {
@@ -56,6 +60,8 @@ public class ShiftManager : Singleton<ShiftManager>
         approvalScore = 100;
 
         Invoke("OnNextCustomer", 4f);
+
+        ShiftText.text = currentShift.ShiftName;
     }
 
     public void EndShift()
@@ -70,6 +76,11 @@ public class ShiftManager : Singleton<ShiftManager>
     {
         approvalScore -= amount;
         Debug.Log($"Penalty: -{amount}");
+
+        if (approvalScore <= 0)
+        {
+            SceneManager.LoadScene(2);
+        }
     }
 
     public void Reward(int amount)

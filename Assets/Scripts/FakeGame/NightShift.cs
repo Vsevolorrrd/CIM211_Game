@@ -8,6 +8,8 @@ public class NightShift : ScriptableObject
 {
     [Tooltip("List of all customers during the night")]
     public List<CustomerVisit> customerVisits;
+
+    public string ShiftName;
 }
 
 [Serializable]

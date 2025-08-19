@@ -19,3 +19,4 @@ MonoBehaviour:
     correctAnswer: "Yes! That\u2019s exactly what I needed."
     wrongAnswer: "Oof\u2026 bitter. Guess I\u2019ll stay awake out of sheer shock."
     endDialogue: {fileID: 11400000, guid: f855b00d9e406074191465406b56d135, type: 2}
+  ShiftName: Shift 3 | Wednesday
