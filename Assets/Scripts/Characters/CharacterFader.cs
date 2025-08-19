@@ -26,9 +26,9 @@ namespace Characters
 
                 if (targetAlpha == 0f)
                 {
-                    if (character.color.a == 0f)
+                    if (character.color.a <= 0.1f)
                     {
-                        Destroy(gameObject);
+                        Destroy(gameObject.GetComponentInParent<CharacterHolder>().gameObject);
                     }
                 }
             }

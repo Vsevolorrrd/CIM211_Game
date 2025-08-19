@@ -256,7 +256,7 @@ MonoBehaviour:
     EndAction: 0
   - NodeGUID: 5a9fdf35-8ae7-48b3-8277-54dc415734e7
     DialogueText: Beat. He looks down, voice barely above a whisper.
-    Position: {x: 1498.3999, y: 208}
+    Position: {x: 1498.4, y: 208}
     NodeType: 0
     CharacterEmotion: 0
     Actor: narrator_id
@@ -272,7 +272,7 @@ MonoBehaviour:
   - NodeGUID: 2b555007-507c-418d-8c1d-56ac0e6ecbc1
     DialogueText: "\u2026You know\u2026 today\u2026 today was the worst day of my
       life."
-    Position: {x: 1814.3999, y: 208}
+    Position: {x: 1814.4, y: 208}
     NodeType: 0
     CharacterEmotion: 0
     Actor: Aren
@@ -395,7 +395,7 @@ MonoBehaviour:
     DialogueText: "\u2026It\u2019s like the more they see me struggle, the more they
       enjoy it. Like kicking someone who\u2019s already down. And I\u2026 I just
       stay there."
-    Position: {x: 4238.4004, y: 246.4}
+    Position: {x: 4238.4, y: 246.4}
     NodeType: 0
     CharacterEmotion: 0
     Actor: Aren
@@ -425,7 +425,7 @@ MonoBehaviour:
     EndAction: 0
   - NodeGUID: a9db0982-1e47-426c-a029-f9b6567a325e
     DialogueText: "And I\u2026 I just let it happen."
-    Position: {x: 4852.8003, y: 246.4}
+    Position: {x: 4852.8, y: 246.4}
     NodeType: 0
     CharacterEmotion: 0
     Actor: Aren
@@ -471,7 +471,7 @@ MonoBehaviour:
   - NodeGUID: 2c754b56-ed98-47ba-a030-32da06d7bba6
     DialogueText: "They\u2019re right\u2026 I am cold, I am weak\u2026 I\u2019m always
       lost, always confused."
-    Position: {x: 5686.4004, y: 384}
+    Position: {x: 5686.4, y: 384}
     NodeType: 0
     CharacterEmotion: 0
     Actor: Aren
@@ -502,7 +502,7 @@ MonoBehaviour:
     EndAction: 0
   - NodeGUID: 03054515-7f26-420c-a193-9fb3c5b8f699
     DialogueText: Today, everything just piled up...
-    Position: {x: 6030.4004, y: 271.2}
+    Position: {x: 6030.4, y: 271.2}
     NodeType: 0
     CharacterEmotion: 0
     Actor: Aren
@@ -517,7 +517,7 @@ MonoBehaviour:
     EndAction: 0
   - NodeGUID: dadf6969-c188-46ab-aeaf-e1f60f44032f
     DialogueText: "People, places\u2026 it all became too much."
-    Position: {x: 6256.8003, y: 271.2}
+    Position: {x: 6256.8, y: 271.2}
     NodeType: 0
     CharacterEmotion: 0
     Actor: Aren
@@ -532,7 +532,7 @@ MonoBehaviour:
     EndAction: 0
   - NodeGUID: fe6b408c-5f61-457c-acda-f7f8405d4f33
     DialogueText: Choice Node
-    Position: {x: 6520.8003, y: 271.2}
+    Position: {x: 6520.8, y: 271.2}
     NodeType: 1
     CharacterEmotion: 0
     Actor: 
@@ -547,7 +547,7 @@ MonoBehaviour:
     EndAction: 0
   - NodeGUID: 3a705a68-5f6e-4793-b283-545a96a5e847
     DialogueText: "But\u2026"
-    Position: {x: 6975.2, y: 320.8}
+    Position: {x: 6975.2, y: 320.80002}
     NodeType: 0
     CharacterEmotion: 0
     Actor: Aren
@@ -563,7 +563,7 @@ MonoBehaviour:
   - NodeGUID: 99b847d3-2942-48b0-b339-43bb9ff9044c
     DialogueText: " I thought\u2026 maybe\u2026 maybe I could finally\u2026 trust
       someone."
-    Position: {x: 7188.8003, y: 320.8}
+    Position: {x: 7188.8, y: 320.80002}
     NodeType: 0
     CharacterEmotion: 0
     Actor: Aren
@@ -578,7 +578,7 @@ MonoBehaviour:
     EndAction: 0
   - NodeGUID: 13258049-99f8-4647-9e8c-0d13e2f2c30f
     DialogueText: Open up.
-    Position: {x: 7494.4004, y: 320.8}
+    Position: {x: 7494.4, y: 320.80002}
     NodeType: 0
     CharacterEmotion: 0
     Actor: Aren
@@ -593,7 +593,7 @@ MonoBehaviour:
     EndAction: 0
   - NodeGUID: 80e4be90-82d6-4302-a039-87c3127764eb
     DialogueText: "There was one girl\u2026 I told her everything."
-    Position: {x: 7709.6, y: 320.8}
+    Position: {x: 7709.6, y: 320.80002}
     NodeType: 0
     CharacterEmotion: 0
     Actor: Aren
@@ -608,7 +608,7 @@ MonoBehaviour:
     EndAction: 0
   - NodeGUID: e3cfa713-3913-40c7-982d-358ff6506f22
     DialogueText: " Everything I\u2019ve been carrying."
-    Position: {x: 7978.4004, y: 320.8}
+    Position: {x: 7978.4, y: 320.80002}
     NodeType: 0
     CharacterEmotion: 0
     Actor: Aren
@@ -623,7 +623,7 @@ MonoBehaviour:
     EndAction: 0
   - NodeGUID: 4ae0702a-d419-4e14-9af9-0728cad5855e
     DialogueText: "\u2026And all she said was"
-    Position: {x: 8182.4004, y: 320.8}
+    Position: {x: 8182.4, y: 320.80002}
     NodeType: 0
     CharacterEmotion: 0
     Actor: Aren
@@ -638,7 +638,7 @@ MonoBehaviour:
     EndAction: 0
   - NodeGUID: 5e26f02c-9564-4eaa-8d90-773a84ffdd67
     DialogueText: Event Node
-    Position: {x: 8392.8, y: 320.8}
+    Position: {x: 8392.8, y: 320.80002}
     NodeType: 2
     CharacterEmotion: 0
     Actor: 
@@ -649,11 +649,11 @@ MonoBehaviour:
     RandomConditionValue: 0
     EventType: 6
     EventName: 
-    EventValue: 1
+    EventValue: 0.5
     EndAction: 0
   - NodeGUID: 29a70471-cfe1-41e7-9097-6517039d9841
     DialogueText: Event Node
-    Position: {x: 8636, y: 320.8}
+    Position: {x: 8636, y: 320.80002}
     NodeType: 2
     CharacterEmotion: 0
     Actor: 
@@ -664,11 +664,11 @@ MonoBehaviour:
     RandomConditionValue: 0
     EventType: 7
     EventName: 
-    EventValue: 0.6
+    EventValue: 0
     EndAction: 0
   - NodeGUID: c2693b1c-5e0e-4360-bf1f-d62c7dc36e6a
     DialogueText: Final
-    Position: {x: 8857.601, y: 320.8}
+    Position: {x: 8857.6, y: 320.80002}
     NodeType: 6
     CharacterEmotion: 0
     Actor: 

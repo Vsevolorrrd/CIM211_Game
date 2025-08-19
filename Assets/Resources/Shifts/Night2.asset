@@ -24,7 +24,7 @@ MonoBehaviour:
     startDialogue: {fileID: 11400000, guid: 28508bf7e9d2389419cb9f4f88c94de1, type: 2}
     correctAnswer: Perfect! Finally, something today went right.
     wrongAnswer: " \u2026Huh. Not quite milkshake-y."
-    endDialogue: {fileID: 11400000, guid: 5a3bae45493bce0449e020c38d6da289, type: 2}
+    endDialogue: {fileID: 11400000, guid: bbe89219098dcdf43902cc4bac28b9ee, type: 2}
   - customer: {fileID: 11400000, guid: 8abc9fb2dccef064dbf33a113ff52944, type: 2}
     requestedDrink: {fileID: 11400000, guid: 46d5bc5226c410845adfc160d894d96a, type: 2}
     startDialogue: {fileID: 11400000, guid: 63410c34254eb9349adcbfa39d95a5dc, type: 2}

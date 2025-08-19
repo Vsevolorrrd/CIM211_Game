@@ -89,8 +89,11 @@ namespace Subtegral.DialogueSystem.Runtime
             UIManager.CreateText(nodeData);
             if (nodeData.Actor != "narrator_id")
             {
-                Character character = CharacterDatabase.GetCharacterByID(nodeData.Actor);
-                CharacterManager.Instance.SetCharacterVisuals(character, nodeData.CharacterEmotion.ToString().ToLowerInvariant());
+                if (CharacterManager.Instance)
+                {
+                    Character character = CharacterDatabase.GetCharacterByID(nodeData.Actor);
+                    CharacterManager.Instance.SetCharacterVisuals(character, nodeData.CharacterEmotion.ToString().ToLowerInvariant());
+                }
             }
 
             savedDialogueNodeData = nodeData;

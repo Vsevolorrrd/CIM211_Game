@@ -534,10 +534,10 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   nightShifts:
-  - {fileID: 11400000, guid: ec67494fad3539740887d0ce44a22962, type: 2}
   - {fileID: 11400000, guid: cdd90bf8d092b5944b0ce3d739afa23b, type: 2}
   - {fileID: 11400000, guid: 736caac79ed6c4a46a4e20bdbe1890d3, type: 2}
   - {fileID: 11400000, guid: 91c51520fc47bf14fa611b373dd7c293, type: 2}
+  - {fileID: 11400000, guid: ec67494fad3539740887d0ce44a22962, type: 2}
   currentShift: {fileID: 0}
   ShiftText: {fileID: 92638267}
 --- !u!4 &363609433

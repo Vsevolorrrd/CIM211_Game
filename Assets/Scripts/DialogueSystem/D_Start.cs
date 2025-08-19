@@ -5,8 +5,9 @@ using UnityEngine;
 public class D_Start : MonoBehaviour
 {
     [SerializeField] DialogueContainer container;
+    [SerializeField] D_Manager manager;
     void Start()
     {
-        D_Manager.Instance.StartDialogue(container, 1f);
+        manager.StartDialogue(container, 1f);
     }
 }

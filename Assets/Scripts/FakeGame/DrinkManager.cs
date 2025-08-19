@@ -51,14 +51,14 @@ public class DrinkManager : Singleton<DrinkManager>
 
         if (isCorrect)
         {
-            ShiftManager.Instance.Reward(5);
+            ShiftManager.Instance.Reward(1);
             Debug.Log("Drink is correct!");
             currentDrink.Clear();
             return true;
         }
         else
         {
-            ShiftManager.Instance.Penalize(10);
+            ShiftManager.Instance.Penalize(5);
             Debug.Log("Drink is wrong!");
             currentDrink.Clear();
             return false;

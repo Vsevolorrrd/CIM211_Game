@@ -45,23 +45,24 @@ namespace Characters
         }
         public void SetCharacterVisuals(Character character, string emotion = "default")
         {
-            if (currentCharacter.GetComponent<CharacterHolder>().character != character)
+            if (currentCharacter)
             {
-                CharacterHolder characterHolder = currentCharacter.GetComponent<CharacterHolder>();
-                characterHolder.SetAllFacesOff();
-                characterHolder.characterFader.FadeOut();
-                
-                var spawnedChar = Instantiate(character.characterPrefab, spawn.position, Quaternion.identity);
-                var charHolder = spawnedChar.GetComponent<CharacterHolder>();
-                charHolder.SwitchEmotions(emotion);
-                charHolder.character = character;
-                currentCharacter = spawnedChar;
+                if (currentCharacter.GetComponent<CharacterHolder>().character != character)
+                {
+                    CharacterHolder characterHolder = currentCharacter.GetComponent<CharacterHolder>();
+                    characterHolder.SetAllFacesOff();
+                    characterHolder.characterFader.FadeOut();
 
-                return;
+                    var spawnedChar = Instantiate(character.characterPrefab, spawn.position, Quaternion.identity);
+                    var charHolder = spawnedChar.GetComponent<CharacterHolder>();
+                    charHolder.SwitchEmotions(emotion);
+                    charHolder.character = character;
+                    currentCharacter = spawnedChar;
+
+                    return;
+                }
+                currentCharacter.GetComponent<CharacterHolder>().SwitchEmotions(emotion);
             }
-
-            currentCharacter.GetComponent<CharacterHolder>().SwitchEmotions(emotion);
-
         }
         public GameObject SpawnCharacter(Character character, string emotion = "default")
         {
