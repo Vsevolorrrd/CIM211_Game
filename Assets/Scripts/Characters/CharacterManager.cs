@@ -79,9 +79,7 @@ namespace Characters
         }
         public void RemoveCurrentCharacter()
         {
-            CharacterHolder characterHolder = currentCharacter.GetComponent<CharacterHolder>();
-            characterHolder.SetAllFacesOff();
-            characterHolder.characterFader.FadeOut();
+            currentCharacter.GetComponent<CharacterHolder>().characterFader.FadeOut();
         }
     }
 }

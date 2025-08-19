@@ -1,4 +1,3 @@
-using System;
 using Subtegral.DialogueSystem.DataContainers;
 using Subtegral.DialogueSystem.Runtime;
 using UnityEngine;
@@ -20,6 +19,7 @@ public class DialogueActivator : MonoBehaviour
         if(stop) return;
 
         if (D_Manager.Instance.IsSpeaking()) return;
+        Outline.SetActive(false);
 
         if (readyToGo)
         {
@@ -60,6 +60,7 @@ public class DialogueActivator : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        if (D_Manager.Instance.IsSpeaking()) return;
         Outline.SetActive(true);
     }
 
