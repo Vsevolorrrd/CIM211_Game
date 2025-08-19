@@ -1,0 +1,232 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Aren_Night4 Start
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: c4140700-d667-4ef5-8254-40a2b43e334d
+    TargetNodeGUID: 21e04481-641b-4e12-98da-45a2c6b39077
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 21e04481-641b-4e12-98da-45a2c6b39077
+    TargetNodeGUID: e0f4717a-c487-4f8a-a2d5-7d423beec840
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: e0f4717a-c487-4f8a-a2d5-7d423beec840
+    TargetNodeGUID: 21689110-7fb1-45a7-9665-8c700d501cf7
+    DisplayText: Next
+  - PortName: Option 3
+    BaseNodeGUID: 21689110-7fb1-45a7-9665-8c700d501cf7
+    TargetNodeGUID: adf81ddf-aa12-4492-aee1-a0f910cd26fe
+    DisplayText: Sometimes I feel invisible too.
+  - PortName: Option 1
+    BaseNodeGUID: 21689110-7fb1-45a7-9665-8c700d501cf7
+    TargetNodeGUID: 50e1257a-a701-4fa9-b699-2ee6086b31c6
+    DisplayText: I think people notice more than you realize.
+  - PortName: Option 2
+    BaseNodeGUID: 21689110-7fb1-45a7-9665-8c700d501cf7
+    TargetNodeGUID: 346e3a91-651f-494e-8ae1-56b1b927bb78
+    DisplayText: "I\u2019d notice. I\u2019d miss you."
+  - PortName: Option 1
+    BaseNodeGUID: adf81ddf-aa12-4492-aee1-a0f910cd26fe
+    TargetNodeGUID: 1991e34c-95b7-4879-90de-149f668ce16f
+    DisplayText: " But being here, talking with you\u2014it matters to me."
+  - PortName: Next
+    BaseNodeGUID: 50e1257a-a701-4fa9-b699-2ee6086b31c6
+    TargetNodeGUID: e0692395-ceeb-4d5a-9600-d0ee2d41378e
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 346e3a91-651f-494e-8ae1-56b1b927bb78
+    TargetNodeGUID: e0692395-ceeb-4d5a-9600-d0ee2d41378e
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 1991e34c-95b7-4879-90de-149f668ce16f
+    TargetNodeGUID: e0692395-ceeb-4d5a-9600-d0ee2d41378e
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: e0692395-ceeb-4d5a-9600-d0ee2d41378e
+    TargetNodeGUID: ef3b2cf3-80c1-4689-9697-15fadcde2e47
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: ef3b2cf3-80c1-4689-9697-15fadcde2e47
+    TargetNodeGUID: 7ccfbf23-e1bc-438d-bfb8-5effce080a8f
+    DisplayText: Sometimes just saying it out loud makes it lighter.
+  DialogueNodeData:
+  - NodeGUID: 21e04481-641b-4e12-98da-45a2c6b39077
+    DialogueText: "\u2026Do you ever feel like\u2026 it doesn\u2019t matter if you\u2019re
+      here or not?"
+    Position: {x: 202.4, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: e0f4717a-c487-4f8a-a2d5-7d423beec840
+    DialogueText: "Like the world wouldn\u2019t even notice if you just\u2026 disappeared?"
+    Position: {x: 516.8, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 21689110-7fb1-45a7-9665-8c700d501cf7
+    DialogueText: Choice Node
+    Position: {x: 836.8, y: 200}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: adf81ddf-aa12-4492-aee1-a0f910cd26fe
+    DialogueText: Choice Node
+    Position: {x: 1247.2, y: 351.2}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 1991e34c-95b7-4879-90de-149f668ce16f
+    DialogueText: "\u2026You mean that?"
+    Position: {x: 1665.6, y: 351.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 346e3a91-651f-494e-8ae1-56b1b927bb78
+    DialogueText: "\u2026You barely even know me."
+    Position: {x: 1436, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 50e1257a-a701-4fa9-b699-2ee6086b31c6
+    DialogueText: "\u2026Maybe. But then it means that they just don't care."
+    Position: {x: 1340.8, y: 10.400002}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: e0692395-ceeb-4d5a-9600-d0ee2d41378e
+    DialogueText: "\u2026I don\u2019t really tell people this stuff. Feels pointless.
+      Like\u2026 what\u2019s the use of opening up if nothing changes?"
+    Position: {x: 1880.8, y: 89.6}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: ef3b2cf3-80c1-4689-9697-15fadcde2e47
+    DialogueText: Choice Node
+    Position: {x: 2224.8, y: 90.4}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 7ccfbf23-e1bc-438d-bfb8-5effce080a8f
+    DialogueText: "\u2026I don't know."
+    Position: {x: 2660.8, y: -7.200001}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: eca798fb-e2bd-4eaf-b728-a3ea484df787
+    DialogueText: Basic Node
+    Position: {x: 2694.4, y: 161.6}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: narrator_id
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  CommentBlockData: []

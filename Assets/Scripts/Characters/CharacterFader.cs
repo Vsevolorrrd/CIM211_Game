@@ -21,7 +21,7 @@ namespace Characters
         {
             if (isFading)
             {
-                float alpha = Mathf.Lerp(character.color.a, targetAlpha, Time.deltaTime * fadeDuration);
+                float alpha = Mathf.Lerp(character.color.a, targetAlpha, Time.deltaTime * 3f * fadeDuration);
                 character.color = new Color(character.color.r, character.color.g, character.color.b, alpha);
 
                 if (targetAlpha == 0f)

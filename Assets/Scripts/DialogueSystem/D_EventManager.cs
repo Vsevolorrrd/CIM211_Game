@@ -42,7 +42,7 @@ namespace Subtegral.DialogueSystem.Runtime
                     break;
 
                 case DialogueEventType.StopAllMusic:
-                    AudioManager.Instance.StopAllLoopSources(nodeData.EventValue);
+                    MusicManager.Instance.StopMusic(nodeData.EventValue);
                     break;
 
                 default:

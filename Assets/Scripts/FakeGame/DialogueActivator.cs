@@ -11,9 +11,19 @@ public class DialogueActivator : MonoBehaviour
     private bool activated = false;
     private bool readyToGo = false;
     private bool stop = false;
+    private bool ignore = true;
 
     public GameObject Outline;
 
+    private void Start()
+    {
+        ignore = true;
+        Invoke("Delay", 1f);
+    }
+    private void Delay()
+    {
+        ignore = false;
+    }
     private void OnMouseDown()
     {
         if(stop) return;
@@ -60,6 +70,7 @@ public class DialogueActivator : MonoBehaviour
 
     private void OnMouseEnter()
     {
+        if (ignore) return;
         if (D_Manager.Instance.IsSpeaking()) return;
         Outline.SetActive(true);
     }

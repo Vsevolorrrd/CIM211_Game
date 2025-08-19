@@ -1,0 +1,521 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 78b3fd9154634ebdb8c8a48960b9a16a, type: 3}
+  m_Name: Aren Final
+  m_EditorClassIdentifier: 
+  NodeLinks:
+  - PortName: Next
+    BaseNodeGUID: 304c17b8-809f-4cc6-9324-ede9aa1f47bd
+    TargetNodeGUID: b4652321-5e2d-4785-a00e-3281ac350943
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: b4652321-5e2d-4785-a00e-3281ac350943
+    TargetNodeGUID: effbbd1a-5ca6-4784-90bf-09be573d0ba6
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: effbbd1a-5ca6-4784-90bf-09be573d0ba6
+    TargetNodeGUID: 3e8c81d6-1bb5-48d1-b4f4-d1a3fa53eb00
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: 3e8c81d6-1bb5-48d1-b4f4-d1a3fa53eb00
+    TargetNodeGUID: ee3f749b-9e53-4e20-ae73-2d6f3b442d95
+    DisplayText: "I\u2019m sorry. That was cruel."
+  - PortName: Option 2
+    BaseNodeGUID: 3e8c81d6-1bb5-48d1-b4f4-d1a3fa53eb00
+    TargetNodeGUID: ee3f749b-9e53-4e20-ae73-2d6f3b442d95
+    DisplayText: "You didn\u2019t deserve that. People don\u2019t always understand."
+  - PortName: Next
+    BaseNodeGUID: ee3f749b-9e53-4e20-ae73-2d6f3b442d95
+    TargetNodeGUID: dfe1a145-aff1-47b6-982b-932f83cebc6d
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: dfe1a145-aff1-47b6-982b-932f83cebc6d
+    TargetNodeGUID: d9bf1029-5aed-4f0a-9153-1f9f680cb07c
+    DisplayText: "Hey\u2026 I\u2019m here. You\u2019re not alone."
+  - PortName: Next
+    BaseNodeGUID: d9bf1029-5aed-4f0a-9153-1f9f680cb07c
+    TargetNodeGUID: e78e8469-80e1-4fac-ab39-605c5f1f9454
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: e78e8469-80e1-4fac-ab39-605c5f1f9454
+    TargetNodeGUID: 54a2bbbb-ed98-4600-b80a-4ce236933ff1
+    DisplayText: "I\u2019ll stay with you."
+  - PortName: Next
+    BaseNodeGUID: 54a2bbbb-ed98-4600-b80a-4ce236933ff1
+    TargetNodeGUID: dfda7468-5200-43b1-8771-f8898633c37e
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 95cfdf97-1bc7-4d71-82c9-1cef27befe4c
+    TargetNodeGUID: 7626b5ab-c775-4687-b1a8-1adc9656ca95
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: 7626b5ab-c775-4687-b1a8-1adc9656ca95
+    TargetNodeGUID: 68ffce30-00b5-41b3-92a3-62cab0a164d9
+    DisplayText: 'Just focus on this moment. '
+  - PortName: Next
+    BaseNodeGUID: 68ffce30-00b5-41b3-92a3-62cab0a164d9
+    TargetNodeGUID: c2d6bc26-ca32-424b-b37e-34c3d1810181
+    DisplayText: Next
+  - PortName: Option 3
+    BaseNodeGUID: dfe1a145-aff1-47b6-982b-932f83cebc6d
+    TargetNodeGUID: f442df49-09b1-4824-bff7-7bbf714486a7
+    DisplayText: "You matter. Even if it doesn\u2019t feel like it, you matter to
+      me."
+  - PortName: Next
+    BaseNodeGUID: f442df49-09b1-4824-bff7-7bbf714486a7
+    TargetNodeGUID: 5e73ff41-2c94-4d47-bdaf-3040766a16c8
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: dfda7468-5200-43b1-8771-f8898633c37e
+    TargetNodeGUID: a90eee8f-7255-4979-8bd8-042f2c516b5d
+    DisplayText: "We can sit here\u2026 together\u2026 for as long as you need."
+  - PortName: Option 1
+    BaseNodeGUID: c2d6bc26-ca32-424b-b37e-34c3d1810181
+    TargetNodeGUID: a90eee8f-7255-4979-8bd8-042f2c516b5d
+    DisplayText: "One breath at a time. You don\u2019t have to decide anything tonight."
+  - PortName: Option 1
+    BaseNodeGUID: 5e73ff41-2c94-4d47-bdaf-3040766a16c8
+    TargetNodeGUID: a90eee8f-7255-4979-8bd8-042f2c516b5d
+    DisplayText: "You\u2019re here, Aren. You\u2019re still here. That alone matters."
+  - PortName: Next
+    BaseNodeGUID: a38c5a54-d7a7-474b-8dc1-198cbccc3ecd
+    TargetNodeGUID: dddada57-8e0c-472c-a334-1a843ff4a203
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: dddada57-8e0c-472c-a334-1a843ff4a203
+    TargetNodeGUID: 11ef5775-49f1-4db5-860c-c149b72ae397
+    DisplayText: Aren.
+  - PortName: Next
+    BaseNodeGUID: 11ef5775-49f1-4db5-860c-c149b72ae397
+    TargetNodeGUID: c1c51f72-02f0-4156-b437-9c62cbaa676a
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: c1c51f72-02f0-4156-b437-9c62cbaa676a
+    TargetNodeGUID: 8605461d-1d01-4157-9146-64e30376ccdd
+    DisplayText: ' I know that you''re afraid things will always be this way.'
+  - PortName: Next
+    BaseNodeGUID: 8605461d-1d01-4157-9146-64e30376ccdd
+    TargetNodeGUID: 63669255-a29e-4f7d-b5eb-22c2d3aface0
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: 63669255-a29e-4f7d-b5eb-22c2d3aface0
+    TargetNodeGUID: d12710cc-d815-473d-be13-975fff9dbad4
+    DisplayText: "But it\u2019s just a bad day\u2026"
+  - PortName: Next
+    BaseNodeGUID: d12710cc-d815-473d-be13-975fff9dbad4
+    TargetNodeGUID: 5fa3868c-90e4-4fa3-8ca1-6033b78193a7
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: 5fa3868c-90e4-4fa3-8ca1-6033b78193a7
+    TargetNodeGUID: 43b99a52-0ccc-47bc-b829-29faafdd3ea3
+    DisplayText: not a bad life.
+  - PortName: Next
+    BaseNodeGUID: a90eee8f-7255-4979-8bd8-042f2c516b5d
+    TargetNodeGUID: e97fe6e6-24e6-4f2f-a65f-9d7a43b8d526
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: e97fe6e6-24e6-4f2f-a65f-9d7a43b8d526
+    TargetNodeGUID: a38c5a54-d7a7-474b-8dc1-198cbccc3ecd
+    DisplayText: Next
+  DialogueNodeData:
+  - NodeGUID: b4652321-5e2d-4785-a00e-3281ac350943
+    DialogueText: <b><color=red>When are you going to kill yourself already?</color></b>
+    Position: {x: 196.8, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: effbbd1a-5ca6-4784-90bf-09be573d0ba6
+    DialogueText: He presses the heel of his hand to his eyes, trembling, holding
+      back tears.
+    Position: {x: 507.2, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: narrator_id
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 3e8c81d6-1bb5-48d1-b4f4-d1a3fa53eb00
+    DialogueText: Choice Node
+    Position: {x: 830.4, y: 200}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: ee3f749b-9e53-4e20-ae73-2d6f3b442d95
+    DialogueText: "\u2026I hate\u2026 my life\u2026 I just\u2026 want\u2026 to<color=red>die</color>."
+    Position: {x: 1305.6, y: 200}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: d9bf1029-5aed-4f0a-9153-1f9f680cb07c
+    DialogueText: Event Node
+    Position: {x: 2112.8, y: 122.399994}
+    NodeType: 2
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 7
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 95cfdf97-1bc7-4d71-82c9-1cef27befe4c
+    DialogueText: Event Node
+    Position: {x: 2112.8, y: 277.6}
+    NodeType: 2
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 7
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: e78e8469-80e1-4fac-ab39-605c5f1f9454
+    DialogueText: Choice Node
+    Position: {x: 2334.4, y: 122.399994}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 54a2bbbb-ed98-4600-b80a-4ce236933ff1
+    DialogueText: Event Node
+    Position: {x: 2557.6, y: 122.399994}
+    NodeType: 2
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 7
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: dfda7468-5200-43b1-8771-f8898633c37e
+    DialogueText: Choice Node
+    Position: {x: 2759.2, y: 122.399994}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: dfe1a145-aff1-47b6-982b-932f83cebc6d
+    DialogueText: Choice Node
+    Position: {x: 1608.8, y: 191.2}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 7626b5ab-c775-4687-b1a8-1adc9656ca95
+    DialogueText: Choice Node
+    Position: {x: 2325.6, y: 277.6}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 68ffce30-00b5-41b3-92a3-62cab0a164d9
+    DialogueText: Event Node
+    Position: {x: 2600.8, y: 277.6}
+    NodeType: 2
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 7
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: c2d6bc26-ca32-424b-b37e-34c3d1810181
+    DialogueText: Choice Node
+    Position: {x: 2814.4, y: 277.6}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: f442df49-09b1-4824-bff7-7bbf714486a7
+    DialogueText: Event Node
+    Position: {x: 2112.8, y: 473.6}
+    NodeType: 2
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 7
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 5e73ff41-2c94-4d47-bdaf-3040766a16c8
+    DialogueText: Choice Node
+    Position: {x: 2315.2, y: 473.6}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: a90eee8f-7255-4979-8bd8-042f2c516b5d
+    DialogueText: "\u2026It\u2026 it won\u2019t\u2026 end."
+    Position: {x: 3335.2, y: 237.6}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: a38c5a54-d7a7-474b-8dc1-198cbccc3ecd
+    DialogueText: "His voice cracks. He can\u2019t say more."
+    Position: {x: 3788, y: 237.6}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: narrator_id
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: dddada57-8e0c-472c-a334-1a843ff4a203
+    DialogueText: Choice Node
+    Position: {x: 4040.8, y: 237.6}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 11ef5775-49f1-4db5-860c-c149b72ae397
+    DialogueText: Event Node
+    Position: {x: 4273.6, y: 237.6}
+    NodeType: 2
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 7
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: c1c51f72-02f0-4156-b437-9c62cbaa676a
+    DialogueText: Choice Node
+    Position: {x: 4480, y: 237.6}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 8605461d-1d01-4157-9146-64e30376ccdd
+    DialogueText: Event Node
+    Position: {x: 4908.8, y: 237.6}
+    NodeType: 2
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 7
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 63669255-a29e-4f7d-b5eb-22c2d3aface0
+    DialogueText: Choice Node
+    Position: {x: 5126.4, y: 237.6}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: d12710cc-d815-473d-be13-975fff9dbad4
+    DialogueText: Event Node
+    Position: {x: 5389.6, y: 237.6}
+    NodeType: 2
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 7
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 5fa3868c-90e4-4fa3-8ca1-6033b78193a7
+    DialogueText: Choice Node
+    Position: {x: 5602.4, y: 237.6}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 43b99a52-0ccc-47bc-b829-29faafdd3ea3
+    DialogueText: Credits
+    Position: {x: 5834.4, y: 243.20001}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: e97fe6e6-24e6-4f2f-a65f-9d7a43b8d526
+    DialogueText: "\u2026My life\u2026 it\u2019s\u2026 terrible."
+    Position: {x: 3556.8, y: 237.6}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Aren
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  CommentBlockData: []

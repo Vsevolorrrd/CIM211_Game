@@ -9,6 +9,10 @@ namespace Utils
         {
             SceneManager.LoadScene(1);
         }
+        public void MainMenu()
+        {
+            SceneManager.LoadScene("MainMenu");
+        }
         public void Quit()
         {
             Application.Quit();

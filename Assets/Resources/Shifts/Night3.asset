@@ -19,4 +19,10 @@ MonoBehaviour:
     correctAnswer: "Yes! That\u2019s exactly what I needed."
     wrongAnswer: "Oof\u2026 bitter. Guess I\u2019ll stay awake out of sheer shock."
     endDialogue: {fileID: 11400000, guid: f855b00d9e406074191465406b56d135, type: 2}
+  - customer: {fileID: 11400000, guid: a420cb0a9ec324c489b9ede48b6028f4, type: 2}
+    requestedDrink: {fileID: 11400000, guid: 46d5bc5226c410845adfc160d894d96a, type: 2}
+    startDialogue: {fileID: 11400000, guid: 5e691f86c928ba74b98a3010884c194c, type: 2}
+    correctAnswer: Perfect. Finally, something going right today.
+    wrongAnswer: " Eh\u2026 close enough."
+    endDialogue: {fileID: 11400000, guid: fbfd4d3b29b8c84418cac031ce06c02a, type: 2}
   ShiftName: Shift 3 | Wednesday

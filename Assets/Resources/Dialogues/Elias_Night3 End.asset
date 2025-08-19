@@ -17,13 +17,18 @@ MonoBehaviour:
     BaseNodeGUID: f121d80f-1f12-432b-8b8f-40d50a18c20f
     TargetNodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
     DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
+    TargetNodeGUID: 0adb6d72-dc32-43d6-8529-4c7ea01f35fd
+    DisplayText: Next
   DialogueNodeData:
   - NodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
-    DialogueText: Basic Node
+    DialogueText: Elias leaves quickly after finishing, muttering about needing to
+      review anatomy again.
     Position: {x: 185.59999, y: 200}
     NodeType: 0
     CharacterEmotion: 0
-    Actor: Kira
+    Actor: narrator_id
     DisplayText: 
     StringConditionKey: 
     BoolConditionKey: 
@@ -33,4 +38,19 @@ MonoBehaviour:
     EventName: 
     EventValue: 0
     EndAction: 0
+  - NodeGUID: 0adb6d72-dc32-43d6-8529-4c7ea01f35fd
+    DialogueText: End Node
+    Position: {x: 503.2, y: 200}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 3
   CommentBlockData: []

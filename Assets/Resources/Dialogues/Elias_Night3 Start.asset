@@ -17,13 +17,58 @@ MonoBehaviour:
     BaseNodeGUID: f121d80f-1f12-432b-8b8f-40d50a18c20f
     TargetNodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
     DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
+    TargetNodeGUID: 2d548d4f-3e43-4508-89eb-f201a8ddee2c
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: 2d548d4f-3e43-4508-89eb-f201a8ddee2c
+    TargetNodeGUID: 74d44a54-bd70-4d77-8a7e-5a974fe4bc77
+    DisplayText: Sure, coming right up.
+  - PortName: Option 2
+    BaseNodeGUID: 2d548d4f-3e43-4508-89eb-f201a8ddee2c
+    TargetNodeGUID: 0d796d20-bbf0-4dc0-b490-ba70c9d245fa
+    DisplayText: "Funny, you\u2019ve been here before."
+  - PortName: Option 3
+    BaseNodeGUID: 2d548d4f-3e43-4508-89eb-f201a8ddee2c
+    TargetNodeGUID: 623874fe-3910-48b5-907b-e2532cf69d23
+    DisplayText: Studying late again?
+  - PortName: Next
+    BaseNodeGUID: 0d796d20-bbf0-4dc0-b490-ba70c9d245fa
+    TargetNodeGUID: 2555587a-3546-47dc-bb81-8503b8ff85c9
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 623874fe-3910-48b5-907b-e2532cf69d23
+    TargetNodeGUID: 2555587a-3546-47dc-bb81-8503b8ff85c9
+    DisplayText: Next
+  - PortName: Option 1
+    BaseNodeGUID: 2555587a-3546-47dc-bb81-8503b8ff85c9
+    TargetNodeGUID: 770dc7f8-1285-46b0-840c-381bcba9d7e0
+    DisplayText: "That\u2019s right, I saw you here just aday ago."
+  - PortName: Option 2
+    BaseNodeGUID: 2555587a-3546-47dc-bb81-8503b8ff85c9
+    TargetNodeGUID: c207e7d7-6165-4c64-aa06-0af8db60182e
+    DisplayText: "No, sorry\u2014must\u2019ve mistaken you for someone else."
+  - PortName: Next
+    BaseNodeGUID: 74d44a54-bd70-4d77-8a7e-5a974fe4bc77
+    TargetNodeGUID: dfc139e2-d818-40ac-bb34-34ba0d84f607
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: 770dc7f8-1285-46b0-840c-381bcba9d7e0
+    TargetNodeGUID: dfc139e2-d818-40ac-bb34-34ba0d84f607
+    DisplayText: Next
+  - PortName: Next
+    BaseNodeGUID: c207e7d7-6165-4c64-aa06-0af8db60182e
+    TargetNodeGUID: dfc139e2-d818-40ac-bb34-34ba0d84f607
+    DisplayText: Next
   DialogueNodeData:
   - NodeGUID: 5cfc7808-77cf-4b42-a561-cf147fc7c6b2
-    DialogueText: Basic Node
-    Position: {x: 185.59999, y: 200}
+    DialogueText: "Oh\u2026 huh, didn\u2019t know this place was open this late.
+      Do you do\u2026 uh, Latte?"
+    Position: {x: 185.6, y: 200}
     NodeType: 0
     CharacterEmotion: 0
-    Actor: Kira
+    Actor: Elias
     DisplayText: 
     StringConditionKey: 
     BoolConditionKey: 
@@ -33,4 +78,126 @@ MonoBehaviour:
     EventName: 
     EventValue: 0
     EndAction: 0
+  - NodeGUID: 2d548d4f-3e43-4508-89eb-f201a8ddee2c
+    DialogueText: Choice Node
+    Position: {x: 500.8, y: 200}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 74d44a54-bd70-4d77-8a7e-5a974fe4bc77
+    DialogueText: Thanks. Anything warm helps right now.
+    Position: {x: 885.6, y: 83.2}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Elias
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 0d796d20-bbf0-4dc0-b490-ba70c9d245fa
+    DialogueText: "Wait\u2014seriously?"
+    Position: {x: 885.6, y: 232}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Elias
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 623874fe-3910-48b5-907b-e2532cf69d23
+    DialogueText: Always. My notes are starting to look like medical hieroglyphs.
+      Wait, what do you mean by again?
+    Position: {x: 885.6, y: 369.6}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Elias
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 2555587a-3546-47dc-bb81-8503b8ff85c9
+    DialogueText: Choice Node
+    Position: {x: 1241.6, y: 300}
+    NodeType: 1
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: 770dc7f8-1285-46b0-840c-381bcba9d7e0
+    DialogueText: "I\u2026 oh, damn. Honestly don\u2019t remember. My brain\u2019s
+      been fried from studying."
+    Position: {x: 1668, y: 220.8}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Elias
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: c207e7d7-6165-4c64-aa06-0af8db60182e
+    DialogueText: Oh. Okay.
+    Position: {x: 1668, y: 381.6}
+    NodeType: 0
+    CharacterEmotion: 0
+    Actor: Elias
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 0
+  - NodeGUID: dfc139e2-d818-40ac-bb34-34ba0d84f607
+    DialogueText: End Node
+    Position: {x: 1976, y: 83.2}
+    NodeType: 6
+    CharacterEmotion: 0
+    Actor: 
+    DisplayText: 
+    StringConditionKey: 
+    BoolConditionKey: 
+    BoolConditionExpectedValue: 0
+    RandomConditionValue: 0
+    EventType: 0
+    EventName: 
+    EventValue: 0
+    EndAction: 1
   CommentBlockData: []

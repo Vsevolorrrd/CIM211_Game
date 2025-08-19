@@ -44,6 +44,9 @@ TagManager:
   - name: Background
     uniqueID: 2952354161
     locked: 0
+  - name: Outline
+    uniqueID: 244002487
+    locked: 0
   - name: Main
     uniqueID: 1888922663
     locked: 0

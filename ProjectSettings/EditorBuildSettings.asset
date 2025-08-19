@@ -11,6 +11,15 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Ves.unity
     guid: bbc99948848161c4fafee8142506fc93
+  - enabled: 1
+    path: Assets/Scenes/Fierd.unity
+    guid: d30d6839eb90bcc44a6bdca06f053b39
+  - enabled: 1
+    path: Assets/Scenes/Final.unity
+    guid: 8d892a9d5f3f6fd428596cc04119a92e
+  - enabled: 1
+    path: Assets/Scenes/Credits.unity
+    guid: d5628ddfcd6d1684e9f2957a4fe6c0d6
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 2bcd2660ca9b64942af0de543d8d7100, type: 3}
   m_UseUCBPForAssetBundles: 0

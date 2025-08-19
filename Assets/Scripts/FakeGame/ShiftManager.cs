@@ -57,7 +57,7 @@ public class ShiftManager : Singleton<ShiftManager>
     {
         currentShift = nightShifts[currentShiftIndex];
         currentCustomerIndex = 0;
-        approvalScore = 100;
+        approvalScore = 10;
 
         Invoke("OnNextCustomer", 4f);
 

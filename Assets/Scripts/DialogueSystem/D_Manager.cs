@@ -3,6 +3,7 @@ using System.Linq;
 using System.Collections;
 using UnityEngine;
 using Characters;
+using UnityEngine.SceneManagement;
 
 namespace Subtegral.DialogueSystem.Runtime
 {
@@ -30,7 +31,7 @@ namespace Subtegral.DialogueSystem.Runtime
             UIManager = GetComponent<D_UI>();
         }
 
-        public void StartDialogue(DialogueContainer dialogue)
+        public void StartDialogue(DialogueContainer dialogue, float inputBlockTime = 0.3f)
         {
             dialogueContainer = dialogue;
             UIManager.OpenDialogueUI();
@@ -38,7 +39,7 @@ namespace Subtegral.DialogueSystem.Runtime
             ProceedToNarrative(narrativeData.TargetNodeGUID);
             dialogueIsGoing = true;
             // so first click doesn't skip
-            inputBlockTimer = 0.2f;
+            inputBlockTimer = inputBlockTime;
         }
 
         public void ProceedToNarrative(string narrativeDataGUID)
@@ -86,8 +87,11 @@ namespace Subtegral.DialogueSystem.Runtime
         private void BasicNode(DialogueNodeData nodeData)
         {
             UIManager.CreateText(nodeData);
-            Character character = CharacterDatabase.GetCharacterByID(nodeData.Actor);
-            CharacterManager.Instance.SetCharacterVisuals(character, nodeData.CharacterEmotion.ToString().ToLowerInvariant());
+            if (nodeData.Actor != "narrator_id")
+            {
+                Character character = CharacterDatabase.GetCharacterByID(nodeData.Actor);
+                CharacterManager.Instance.SetCharacterVisuals(character, nodeData.CharacterEmotion.ToString().ToLowerInvariant());
+            }
 
             savedDialogueNodeData = nodeData;
             awatingImput = true;
@@ -169,7 +173,7 @@ namespace Subtegral.DialogueSystem.Runtime
                     break;
 
                 case EndAction.LoadScene:
-                    //SceneLoader.Instance.LoadScene(nodeData.DialogueText);
+                    SceneManager.LoadScene(nodeData.DialogueText);
                     break;
 
                 case EndAction.CustomerLeaves:
